@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+streamlit
+numpy
+soundfile
+matplotlib
+websockets
