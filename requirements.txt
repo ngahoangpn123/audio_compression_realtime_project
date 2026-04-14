@@ -1,0 +1,28 @@
+# ── Core audio ───────────────────────────────────────────────────────────────
+pydub>=0.25.1          # ffmpeg wrapper for MP3/AAC/Opus/OGG encode-decode
+soundfile>=0.12.1      # libsndfile-backed WAV/FLAC/OGG reader
+numpy>=1.24.0          # numerical computing
+
+# ── Web / WebSocket ───────────────────────────────────────────────────────────
+websockets>=12.0       # async WebSocket server & client
+aiohttp>=3.9.0         # optional HTTP companion for REST endpoints
+
+# ── Dashboard ────────────────────────────────────────────────────────────────
+dash>=2.17.0           # Plotly Dash framework
+plotly>=5.22.0         # charting library
+dash-bootstrap-components>=1.6.0  # responsive layout helpers (optional)
+
+# ── Scientific / evaluation ───────────────────────────────────────────────────
+scipy>=1.12.0          # signal processing utilities
+librosa>=0.10.0        # load audio (mọi format), STFT, mel-spectrogram, amplitude_to_db
+scikit-learn>=1.4.0    # mean_squared_error — dùng trong MetricsCalculator
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+tqdm>=4.66.0           # progress bars for batch evaluation
+python-dotenv>=1.0.0   # environment variable management
+
+# ── External system dependency (not pip-installed) ───────────────────────────
+# ffmpeg must be installed on the system:
+#   Ubuntu/Debian:  sudo apt install ffmpeg
+#   macOS:          brew install ffmpeg
+#   Windows:        https://ffmpeg.org/download.html
