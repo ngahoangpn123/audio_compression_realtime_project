@@ -15,7 +15,8 @@ import json
 import os
 import time
 import numpy as np
-import wave
+import librosa          # load_wav: decode + resample + mono
+import soundfile as sf  # sf.info: metadata
 
 from backend.audio_codec import AudioCodec
 from backend.metrics import MetricsCalculator
@@ -26,27 +27,22 @@ CODECS = ["mp3", "aac", "opus", "ogg"]
 
 
 def load_wav(path: str) -> np.ndarray:
-    with wave.open(path, "rb") as wf:
-        n_ch = wf.getnchannels()
-        sw = wf.getsampwidth()
-        raw = wf.readframes(wf.getnframes())
-    dtype = {1: np.uint8, 2: np.int16, 4: np.int32}.get(sw, np.int16)
-    arr = np.frombuffer(raw, dtype=dtype).astype(np.float32)
-    if sw == 1:
-        arr = (arr - 128) / 128.0
-    else:
-        arr /= 2 ** (sw * 8 - 1)
-    if n_ch > 1:
-        arr = arr[::n_ch]
-    return arr
+    """
+    Dùng librosa.load — tự decode, resample, mono, float32.
+    Thay thế toàn bộ xử lý wave module + dtype conversion thủ công.
+    """
+    samples, _sr = librosa.load(path, sr=SAMPLE_RATE, mono=True, dtype=np.float32)
+    return samples
 
 
-def generate_sine(duration_s=10.0) -> np.ndarray:
-    t = np.arange(int(SAMPLE_RATE * duration_s)) / SAMPLE_RATE
+def generate_sine(duration_s: float = 10.0) -> np.ndarray:
+    """np.linspace — chính xác hơn np.arange/sr; numpy vectorized broadcast."""
+    t = np.linspace(0, duration_s, int(SAMPLE_RATE * duration_s),
+                    endpoint=False, dtype=np.float32)
     return (
-        0.5 * np.sin(2 * np.pi * 440 * t)
+        0.50 * np.sin(2 * np.pi * 440 * t)
         + 0.25 * np.sin(2 * np.pi * 880 * t)
-        + 0.1 * np.random.randn(len(t)).astype(np.float32) * 0.05
+        + 0.05 * np.random.default_rng(42).standard_normal(len(t)).astype(np.float32)
     ).astype(np.float32)
 
 
@@ -242,4 +238,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
