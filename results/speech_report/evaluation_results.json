@@ -1,0 +1,352 @@
+{
+  "meta": {
+    "label": "speech_test.wav",
+    "duration_s": 10.0,
+    "samples": 441000,
+    "sample_rate": 44100
+  },
+  "codecs": {
+    "mp3": {
+      "32": {
+        "snr_db": 20.43,
+        "psnr_db": 39.23,
+        "mse": 0.0001195,
+        "spectral_distortion_db": 11.91,
+        "compression_ratio": 43.716,
+        "space_saving_pct": 97.7,
+        "effective_bitrate_kbps": 32.3,
+        "encode_latency_ms": 823.67,
+        "decode_latency_ms": 236.01,
+        "compressed_bytes": 40351,
+        "original_bytes": 1764000
+      },
+      "64": {
+        "snr_db": 25.44,
+        "psnr_db": 44.23,
+        "mse": 3.78e-05,
+        "spectral_distortion_db": 7.07,
+        "compression_ratio": 21.913,
+        "space_saving_pct": 95.4,
+        "effective_bitrate_kbps": 64.4,
+        "encode_latency_ms": 503.96,
+        "decode_latency_ms": 591.24,
+        "compressed_bytes": 80501,
+        "original_bytes": 1764000
+      },
+      "96": {
+        "snr_db": 25.97,
+        "psnr_db": 44.76,
+        "mse": 3.34e-05,
+        "spectral_distortion_db": 6.71,
+        "compression_ratio": 14.611,
+        "space_saving_pct": 93.2,
+        "effective_bitrate_kbps": 96.6,
+        "encode_latency_ms": 259.38,
+        "decode_latency_ms": 499.41,
+        "compressed_bytes": 120730,
+        "original_bytes": 1764000
+      },
+      "128": {
+        "snr_db": 25.99,
+        "psnr_db": 44.78,
+        "mse": 3.33e-05,
+        "spectral_distortion_db": 6.59,
+        "compression_ratio": 10.959,
+        "space_saving_pct": 90.9,
+        "effective_bitrate_kbps": 128.8,
+        "encode_latency_ms": 404.03,
+        "decode_latency_ms": 348.83,
+        "compressed_bytes": 160958,
+        "original_bytes": 1764000
+      },
+      "192": {
+        "snr_db": 30.41,
+        "psnr_db": 49.21,
+        "mse": 1.2e-05,
+        "spectral_distortion_db": 6.55,
+        "compression_ratio": 7.307,
+        "space_saving_pct": 86.3,
+        "effective_bitrate_kbps": 193.1,
+        "encode_latency_ms": 279.96,
+        "decode_latency_ms": 204.53,
+        "compressed_bytes": 241415,
+        "original_bytes": 1764000
+      },
+      "256": {
+        "snr_db": 69.5,
+        "psnr_db": 88.29,
+        "mse": 0.0,
+        "spectral_distortion_db": 6.1,
+        "compression_ratio": 5.48,
+        "space_saving_pct": 81.8,
+        "effective_bitrate_kbps": 257.5,
+        "encode_latency_ms": 239.63,
+        "decode_latency_ms": 437.44,
+        "compressed_bytes": 321872,
+        "original_bytes": 1764000
+      },
+      "320": {
+        "snr_db": 69.99,
+        "psnr_db": 88.79,
+        "mse": 0.0,
+        "spectral_distortion_db": 5.97,
+        "compression_ratio": 4.384,
+        "space_saving_pct": 77.2,
+        "effective_bitrate_kbps": 321.9,
+        "encode_latency_ms": 533.33,
+        "decode_latency_ms": 539.34,
+        "compressed_bytes": 402329,
+        "original_bytes": 1764000
+      }
+    },
+    "aac": {
+      "32": {
+        "snr_db": -3.11,
+        "psnr_db": 15.69,
+        "mse": 0.0269811,
+        "spectral_distortion_db": 11.68,
+        "compression_ratio": 40.3,
+        "space_saving_pct": 97.5,
+        "effective_bitrate_kbps": 35.0,
+        "encode_latency_ms": 271.92,
+        "decode_latency_ms": 633.44,
+        "compressed_bytes": 43772,
+        "original_bytes": 1764000
+      },
+      "64": {
+        "snr_db": -3.13,
+        "psnr_db": 15.67,
+        "mse": 0.0271132,
+        "spectral_distortion_db": 11.27,
+        "compression_ratio": 21.007,
+        "space_saving_pct": 95.2,
+        "effective_bitrate_kbps": 67.2,
+        "encode_latency_ms": 243.08,
+        "decode_latency_ms": 900.99,
+        "compressed_bytes": 83971,
+        "original_bytes": 1764000
+      },
+      "96": {
+        "snr_db": -3.13,
+        "psnr_db": 15.66,
+        "mse": 0.0271355,
+        "spectral_distortion_db": 11.21,
+        "compression_ratio": 14.221,
+        "space_saving_pct": 93.0,
+        "effective_bitrate_kbps": 99.2,
+        "encode_latency_ms": 267.07,
+        "decode_latency_ms": 431.44,
+        "compressed_bytes": 124042,
+        "original_bytes": 1764000
+      },
+      "128": {
+        "snr_db": -3.13,
+        "psnr_db": 15.66,
+        "mse": 0.0271434,
+        "spectral_distortion_db": 11.24,
+        "compression_ratio": 10.603,
+        "space_saving_pct": 90.6,
+        "effective_bitrate_kbps": 133.1,
+        "encode_latency_ms": 265.61,
+        "decode_latency_ms": 439.17,
+        "compressed_bytes": 166370,
+        "original_bytes": 1764000
+      },
+      "192": {
+        "snr_db": -3.13,
+        "psnr_db": 15.66,
+        "mse": 0.0271516,
+        "spectral_distortion_db": 10.66,
+        "compression_ratio": 7.611,
+        "space_saving_pct": 86.9,
+        "effective_bitrate_kbps": 185.4,
+        "encode_latency_ms": 447.31,
+        "decode_latency_ms": 679.64,
+        "compressed_bytes": 231760,
+        "original_bytes": 1764000
+      },
+      "256": {
+        "snr_db": -3.13,
+        "psnr_db": 15.66,
+        "mse": 0.0271516,
+        "spectral_distortion_db": 10.68,
+        "compression_ratio": 7.628,
+        "space_saving_pct": 86.9,
+        "effective_bitrate_kbps": 185.0,
+        "encode_latency_ms": 1266.08,
+        "decode_latency_ms": 452.76,
+        "compressed_bytes": 231241,
+        "original_bytes": 1764000
+      },
+      "320": {
+        "snr_db": -3.13,
+        "psnr_db": 15.66,
+        "mse": 0.0271516,
+        "spectral_distortion_db": 10.68,
+        "compression_ratio": 7.628,
+        "space_saving_pct": 86.9,
+        "effective_bitrate_kbps": 185.0,
+        "encode_latency_ms": 888.8,
+        "decode_latency_ms": 1046.3,
+        "compressed_bytes": 231266,
+        "original_bytes": 1764000
+      }
+    },
+    "opus": {
+      "32": {
+        "snr_db": 21.93,
+        "psnr_db": 40.73,
+        "mse": 8.46e-05,
+        "spectral_distortion_db": 11.89,
+        "compression_ratio": 42.488,
+        "space_saving_pct": 97.6,
+        "effective_bitrate_kbps": 33.2,
+        "encode_latency_ms": 491.45,
+        "decode_latency_ms": 533.78,
+        "compressed_bytes": 41518,
+        "original_bytes": 1764000
+      },
+      "64": {
+        "snr_db": 25.86,
+        "psnr_db": 44.66,
+        "mse": 3.42e-05,
+        "spectral_distortion_db": 10.1,
+        "compression_ratio": 18.07,
+        "space_saving_pct": 94.5,
+        "effective_bitrate_kbps": 78.1,
+        "encode_latency_ms": 295.69,
+        "decode_latency_ms": 411.38,
+        "compressed_bytes": 97620,
+        "original_bytes": 1764000
+      },
+      "96": {
+        "snr_db": 27.57,
+        "psnr_db": 46.37,
+        "mse": 2.31e-05,
+        "spectral_distortion_db": 9.78,
+        "compression_ratio": 11.972,
+        "space_saving_pct": 91.6,
+        "effective_bitrate_kbps": 117.9,
+        "encode_latency_ms": 306.35,
+        "decode_latency_ms": 379.15,
+        "compressed_bytes": 147345,
+        "original_bytes": 1764000
+      },
+      "128": {
+        "snr_db": 28.75,
+        "psnr_db": 47.54,
+        "mse": 1.76e-05,
+        "spectral_distortion_db": 9.58,
+        "compression_ratio": 8.98,
+        "space_saving_pct": 88.9,
+        "effective_bitrate_kbps": 157.2,
+        "encode_latency_ms": 255.99,
+        "decode_latency_ms": 453.33,
+        "compressed_bytes": 196443,
+        "original_bytes": 1764000
+      },
+      "192": {
+        "snr_db": 29.97,
+        "psnr_db": 48.76,
+        "mse": 1.33e-05,
+        "spectral_distortion_db": 9.43,
+        "compression_ratio": 6.023,
+        "space_saving_pct": 83.4,
+        "effective_bitrate_kbps": 234.3,
+        "encode_latency_ms": 674.64,
+        "decode_latency_ms": 586.45,
+        "compressed_bytes": 292873,
+        "original_bytes": 1764000
+      },
+      "256": {
+        "snr_db": 30.11,
+        "psnr_db": 48.91,
+        "mse": 1.29e-05,
+        "spectral_distortion_db": 9.4,
+        "compression_ratio": 4.666,
+        "space_saving_pct": 78.6,
+        "effective_bitrate_kbps": 302.4,
+        "encode_latency_ms": 282.39,
+        "decode_latency_ms": 474.84,
+        "compressed_bytes": 378052,
+        "original_bytes": 1764000
+      },
+      "320": {
+        "error": "Encoding failed. ffmpeg/avlib returned error code: 1\n\nCommand:['ffmpeg', '-y', '-f', 'wav', '-i', '/tmp/tmp7htaf0lt', '-acodec', 'libopus', '-b:a', '320k', '-f', 'opus', '/tmp/tmp34c2hjb9']\n\nOutput from ffmpeg/avlib:\n\nffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers\n  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)\n  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared\n  libavutil      56. 70.100 / 56. 70.100\n  libavcodec     58.134.100 / 58.134.100\n  libavformat    58. 76.100 / 58. 76.100\n  libavdevice    58. 13.100 / 58. 13.100\n  libavfilter     7.110.100 /  7.110.100\n  libswscale      5.  9.100 /  5.  9.100\n  libswresample   3.  9.100 /  3.  9.100\n  libpostproc    55.  9.100 / 55.  9.100\nGuessed Channel Layout for Input Stream #0.0 : mono\nInput #0, wav, from '/tmp/tmp7htaf0lt':\n  Duration: 00:00:10.00, bitrate: 705 kb/s\n  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, mono, s16, 705 kb/s\nStream mapping:\n  Stream #0:0 -> #0:0 (pcm_s16le (native) -> opus (libopus))\nPress [q] to stop, [?] for help\n[libopus @ 0x5f369332b7c0] The bit rate 320000 bps is unsupported. Please choose a value between 500 and 256000.\nError initializing output stream 0:0 -- Error while opening encoder for output stream #0:0 - maybe incorrect parameters such as bit_rate, rate, width or height\nConversion failed!\n"
+      }
+    },
+    "ogg": {
+      "32": {
+        "snr_db": 16.44,
+        "psnr_db": 35.24,
+        "mse": 0.0002994,
+        "spectral_distortion_db": 8.48,
+        "compression_ratio": 43.181,
+        "space_saving_pct": 97.7,
+        "effective_bitrate_kbps": 32.7,
+        "encode_latency_ms": 461.5,
+        "decode_latency_ms": 366.44,
+        "compressed_bytes": 40851,
+        "original_bytes": 1764000
+      },
+      "64": {
+        "snr_db": 20.84,
+        "psnr_db": 39.64,
+        "mse": 0.0001087,
+        "spectral_distortion_db": 7.39,
+        "compression_ratio": 25.939,
+        "space_saving_pct": 96.1,
+        "effective_bitrate_kbps": 54.4,
+        "encode_latency_ms": 400.21,
+        "decode_latency_ms": 301.5,
+        "compressed_bytes": 68007,
+        "original_bytes": 1764000
+      },
+      "96": {
+        "snr_db": 25.5,
+        "psnr_db": 44.29,
+        "mse": 3.72e-05,
+        "spectral_distortion_db": 7.08,
+        "compression_ratio": 19.901,
+        "space_saving_pct": 95.0,
+        "effective_bitrate_kbps": 70.9,
+        "encode_latency_ms": 329.6,
+        "decode_latency_ms": 285.32,
+        "compressed_bytes": 88639,
+        "original_bytes": 1764000
+      },
+      "128": {
+        "snr_db": 30.26,
+        "psnr_db": 49.06,
+        "mse": 1.24e-05,
+        "spectral_distortion_db": 6.81,
+        "compression_ratio": 13.552,
+        "space_saving_pct": 92.6,
+        "effective_bitrate_kbps": 104.1,
+        "encode_latency_ms": 421.04,
+        "decode_latency_ms": 362.39,
+        "compressed_bytes": 130162,
+        "original_bytes": 1764000
+      },
+      "192": {
+        "snr_db": 36.8,
+        "psnr_db": 55.6,
+        "mse": 2.8e-06,
+        "spectral_distortion_db": 6.56,
+        "compression_ratio": 8.315,
+        "space_saving_pct": 88.0,
+        "effective_bitrate_kbps": 169.7,
+        "encode_latency_ms": 478.42,
+        "decode_latency_ms": 542.3,
+        "compressed_bytes": 212136,
+        "original_bytes": 1764000
+      },
+      "256": {
+        "error": "Encoding failed. ffmpeg/avlib returned error code: 1\n\nCommand:['ffmpeg', '-y', '-f', 'wav', '-i', '/tmp/tmp0o1cu5zt', '-acodec', 'libvorbis', '-b:a', '256k', '-f', 'ogg', '/tmp/tmp2ofzmj6y']\n\nOutput from ffmpeg/avlib:\n\nffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers\n  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)\n  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared\n  libavutil      56. 70.100 / 56. 70.100\n  libavcodec     58.134.100 / 58.134.100\n  libavformat    58. 76.100 / 58. 76.100\n  libavdevice    58. 13.100 / 58. 13.100\n  libavfilter     7.110.100 /  7.110.100\n  libswscale      5.  9.100 /  5.  9.100\n  libswresample   3.  9.100 /  3.  9.100\n  libpostproc    55.  9.100 / 55.  9.100\nGuessed Channel Layout for Input Stream #0.0 : mono\nInput #0, wav, from '/tmp/tmp0o1cu5zt':\n  Duration: 00:00:10.00, bitrate: 705 kb/s\n  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, mono, s16, 705 kb/s\nStream mapping:\n  Stream #0:0 -> #0:0 (pcm_s16le (native) -> vorbis (libvorbis))\nPress [q] to stop, [?] for help\n[libvorbis @ 0x5aa068b267c0] encoder setup failed\nError initializing output stream 0:0 -- Error while opening encoder for output stream #0:0 - maybe incorrect parameters such as bit_rate, rate, width or height\nConversion failed!\n"
+      },
+      "320": {
+        "error": "Encoding failed. ffmpeg/avlib returned error code: 1\n\nCommand:['ffmpeg', '-y', '-f', 'wav', '-i', '/tmp/tmp22pvy_t8', '-acodec', 'libvorbis', '-b:a', '320k', '-f', 'ogg', '/tmp/tmp4tkqiygb']\n\nOutput from ffmpeg/avlib:\n\nffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers\n  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)\n  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared\n  libavutil      56. 70.100 / 56. 70.100\n  libavcodec     58.134.100 / 58.134.100\n  libavformat    58. 76.100 / 58. 76.100\n  libavdevice    58. 13.100 / 58. 13.100\n  libavfilter     7.110.100 /  7.110.100\n  libswscale      5.  9.100 /  5.  9.100\n  libswresample   3.  9.100 /  3.  9.100\n  libpostproc    55.  9.100 / 55.  9.100\nGuessed Channel Layout for Input Stream #0.0 : mono\nInput #0, wav, from '/tmp/tmp22pvy_t8':\n  Duration: 00:00:10.00, bitrate: 705 kb/s\n  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, mono, s16, 705 kb/s\nStream mapping:\n  Stream #0:0 -> #0:0 (pcm_s16le (native) -> vorbis (libvorbis))\nPress [q] to stop, [?] for help\n[libvorbis @ 0x647a7791e7c0] encoder setup failed\nError initializing output stream 0:0 -- Error while opening encoder for output stream #0:0 - maybe incorrect parameters such as bit_rate, rate, width or height\nConversion failed!\n"
+      }
+    }
+  }
+}
