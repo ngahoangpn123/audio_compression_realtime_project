@@ -32,36 +32,41 @@ def prepare_and_save(y, sr, filename):
     print(f"--- Đã lưu: {output_path}")
 
 def main():
-    # Tạo thư mục data nếu chưa có
     if not os.path.exists(DATA_DIR):
         os.makedirs(DATA_DIR)
-        print(f"Đã tạo thư mục {DATA_DIR}")
+        print(f"Created directory: {DATA_DIR}")
 
-    print("Đang khởi tạo Dataset... Vui lòng chờ giây lát.\n")
+    print("Initializing Dataset... Please wait.\n")
 
-    # Nhóm 1: Speech (Giọng nói từ LibriSpeech)
-    print("1/4 Đang tải mẫu Speech...")
-    y_speech, sr_speech = librosa.load(librosa.ex('libri'), sr=None)
-    prepare_and_save(y_speech, sr_speech, "speech_test")
+    # Nhóm 1: Speech - Dùng 'librifemale' (Phổ biến hơn 'libri')
+    print("1/4 Loading Speech sample...")
+    try:
+        y_speech, sr_speech = librosa.load(librosa.ex('librifemale'), sr=None)
+        prepare_and_save(y_speech, sr_speech, "speech_test")
+    except:
+        print("Fallback: 'librifemale' not found, trying 'brahms'...")
+        y_speech, sr_speech = librosa.load(librosa.ex('brahms'), sr=None)
+        prepare_and_save(y_speech, sr_speech, "speech_test")
 
-    # Nhóm 2: Complex Music (Nhạc đa âm cụ)
-    print("2/4 Đang tải mẫu Music...")
-    y_music, sr_music = librosa.load(librosa.ex('choice'), sr=None)
+    # Nhóm 2: Music - Dùng 'choice' hoặc 'trumpet'
+    print("2/4 Loading Music sample...")
+    try:
+        y_music, sr_music = librosa.load(librosa.ex('choice'), sr=None)
+    except:
+        y_music, sr_music = librosa.load(librosa.ex('trumpet'), sr=None)
     prepare_and_save(y_music, sr_music, "music_test")
 
-    # Nhóm 3: Percussion (Tiếng trống/Transient)
-    print("3/4 Đang tải mẫu Percussion...")
+    # Nhóm 3: Percussion
+    print("3/4 Loading Percussion sample...")
     y_drum, sr_drum = librosa.load(librosa.ex('drumbeat'), sr=None)
     prepare_and_save(y_drum, sr_drum, "percussion_test")
 
-    # Nhóm 4: Ambient Noise (Tạo nhiễu trắng - Stress Test)
-    print("4/4 Đang tạo mẫu White Noise...")
-    # Tạo nhiễu trắng ngẫu nhiên biên độ từ -0.1 đến 0.1
+    # Nhóm 4: White Noise
+    print("4/4 Generating White Noise...")
     y_noise = np.random.normal(0, 0.1, SAMPLE_RATE * DURATION)
     prepare_and_save(y_noise, SAMPLE_RATE, "noise_test")
 
-    print("\n HOÀN THÀNH! Bộ dataset đã sẵn sàng trong thư mục 'data/'.")
-    print("Bây giờ bạn có thể chạy: python evaluate.py --file data/speech_test.wav")
+    print("\n✅ DONE! Files saved in 'data/' folder.")
 
 if __name__ == "__main__":
     main()
