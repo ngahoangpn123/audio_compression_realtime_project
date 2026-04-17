@@ -3,30 +3,20 @@ import numpy as np
 import librosa
 import soundfile as sf
 
-# Cấu hình chuẩn cho Project
 SAMPLE_RATE = 44100
-DURATION = 10  # giây
+DURATION = 10 
 DATA_DIR = 'data'
 
 def prepare_and_save(y, sr, filename):
-    """Chuẩn hóa độ dài về đúng 10s và lưu file"""
     target_samples = SAMPLE_RATE * DURATION
-    
-    # 1. Resample nếu khác 44.1kHz
     if sr != SAMPLE_RATE:
         y = librosa.resample(y, orig_sr=sr, target_sr=SAMPLE_RATE)
-    
-    # 2. Cắt hoặc Pad (thêm khoảng lặng) để vừa đủ 10s
     if len(y) > target_samples:
         y = y[:target_samples]
     else:
         y = np.pad(y, (0, target_samples - len(y)), mode='constant')
-        
-    # 3. Đảm bảo là Mono
     if y.ndim > 1:
         y = librosa.to_mono(y)
-
-    # 4. Lưu file vào thư mục data/
     output_path = os.path.join(DATA_DIR, f"{filename}.wav")
     sf.write(output_path, y, SAMPLE_RATE)
     print(f"--- Đã lưu: {output_path}")
@@ -34,39 +24,37 @@ def prepare_and_save(y, sr, filename):
 def main():
     if not os.path.exists(DATA_DIR):
         os.makedirs(DATA_DIR)
-        print(f"Created directory: {DATA_DIR}")
 
-    print("Initializing Dataset... Please wait.\n")
+    # Lấy danh sách các key hợp lệ trên máy 
+    valid_keys = librosa.util.list_examples()
+    print(f"Các mẫu có sẵn trên hệ thống: {valid_keys}\n")
 
-    # Nhóm 1: Speech - Dùng 'librifemale' (Phổ biến hơn 'libri')
-    print("1/4 Loading Speech sample...")
-    try:
-        y_speech, sr_speech = librosa.load(librosa.ex('librifemale'), sr=None)
-        prepare_and_save(y_speech, sr_speech, "speech_test")
-    except:
-        print("Fallback: 'librifemale' not found, trying 'brahms'...")
-        y_speech, sr_speech = librosa.load(librosa.ex('brahms'), sr=None)
-        prepare_and_save(y_speech, sr_speech, "speech_test")
+    # 1. Speech
+    print("1/4 Loading Speech...")
+    key = 'librifemale' if 'librifemale' in valid_keys else ('libri' if 'libri' in valid_keys else valid_keys[0])
+    y, sr = librosa.load(librosa.ex(key), sr=None)
+    prepare_and_save(y, sr, "speech_test")
 
-    # Nhóm 2: Music - Dùng 'choice' hoặc 'trumpet'
-    print("2/4 Loading Music sample...")
-    try:
-        y_music, sr_music = librosa.load(librosa.ex('choice'), sr=None)
-    except:
-        y_music, sr_music = librosa.load(librosa.ex('trumpet'), sr=None)
-    prepare_and_save(y_music, sr_music, "music_test")
+    # 2. Music
+    print("2/4 Loading Music...")
+    key = 'choice' if 'choice' in valid_keys else ('trumpet' if 'trumpet' in valid_keys else valid_keys[1])
+    y, sr = librosa.load(librosa.ex(key), sr=None)
+    prepare_and_save(y, sr, "music_test")
 
-    # Nhóm 3: Percussion
-    print("3/4 Loading Percussion sample...")
-    y_drum, sr_drum = librosa.load(librosa.ex('drumbeat'), sr=None)
-    prepare_and_save(y_drum, sr_drum, "percussion_test")
+    # 3. Percussion 
+    print("3/4 Loading Percussion...")
+    # Thử các key phổ biến cho trống, nếu không có thì dùng key thứ 3 trong danh sách
+    drum_keys = ['vibeace', 'pistachio', 'drumbeat']
+    selected_drum = next((k for k in drum_keys if k in valid_keys), valid_keys[2] if len(valid_keys) > 2 else valid_keys[0])
+    y, sr = librosa.load(librosa.ex(selected_drum), sr=None)
+    prepare_and_save(y, sr, "percussion_test")
 
-    # Nhóm 4: White Noise
+    # 4. White Noise
     print("4/4 Generating White Noise...")
     y_noise = np.random.normal(0, 0.1, SAMPLE_RATE * DURATION)
     prepare_and_save(y_noise, SAMPLE_RATE, "noise_test")
 
-    print("\n✅ DONE! Files saved in 'data/' folder.")
+    print("\nHOÀN THÀNH! Dữ liệu đã sẵn sàng.")
 
 if __name__ == "__main__":
     main()
