@@ -170,8 +170,17 @@ async def stream_audio(uri: str, chunks, chunk_delay_s: float = 0.09,
                     if payload.get("type") == "metrics":
                         print_metrics(payload, chunk_idx)
                         history.append(payload)
+                        
+                        # --- GHI FILE SAU MỖI CHUNK ĐỂ DASHBOARD ĐỌC REAL-TIME ---
+                        if save_results:
+                            os.makedirs(os.path.dirname(save_results) or ".", exist_ok=True)
+                            with open(save_results, "w") as f:
+                                json.dump(history, f, indent=2)
+                        # ---------------------------------------------------------
+
                 except asyncio.TimeoutError:
                     print(f"{RED}Timeout chunk #{chunk_idx}{RESET}")
+                
                 await asyncio.sleep(chunk_delay_s)
 
     except ConnectionRefusedError:
@@ -180,11 +189,9 @@ async def stream_audio(uri: str, chunks, chunk_delay_s: float = 0.09,
         sys.exit(1)
 
     print_summary(history)
-
+    
+    # Đã ghi file bên trong vòng lặp nên có thể bỏ hoặc giữ dòng in thông báo này
     if save_results and history:
-        os.makedirs(os.path.dirname(save_results) or ".", exist_ok=True)
-        with open(save_results, "w") as f:
-            json.dump(history, f, indent=2)
         print(f"{GREEN}Results saved -> {save_results}{RESET}")
 
     return history

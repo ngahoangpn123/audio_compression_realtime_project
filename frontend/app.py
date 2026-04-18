@@ -15,6 +15,7 @@ Features:
 import base64
 import io
 import json
+import os
 import time
 import wave
 import asyncio
@@ -228,11 +229,11 @@ app.layout = html.Div(
                 ]),
 
                 # ── Hidden store ──────────────────────────────────────────
-                dcc.Store(id="audio-store"),  # stores analysis results JSON
-                dcc.Store(id="raw-store"),    # stores base64 WAV for playback
+                dcc.Store(id="audio-store"),  
+                dcc.Store(id="raw-store"),    
 
                 # ── Live update interval ──────────────────────────────────
-                dcc.Interval(id="live-interval", interval=1000, n_intervals=0, disabled=True),
+                dcc.Interval(id="live-interval", interval=1000, n_intervals=0, disabled=False),
                 html.Div(id="live-metrics-container",
                          style={"marginTop": "18px"},
                          children=[
@@ -265,7 +266,6 @@ DARK_LAYOUT = dict(
 
 
 def decode_upload(contents: str) -> tuple[np.ndarray, bytes]:
-    """Decode Dash upload contents to float32 samples + raw WAV bytes."""
     header, b64data = contents.split(",", 1)
     raw = base64.b64decode(b64data)
 
@@ -277,7 +277,6 @@ def decode_upload(contents: str) -> tuple[np.ndarray, bytes]:
             n_frames = wf.getnframes()
             raw_pcm = wf.readframes(n_frames)
     except Exception:
-        # Try soundfile for MP3/OGG uploads
         try:
             import soundfile as sf
             buf.seek(0)
@@ -285,7 +284,7 @@ def decode_upload(contents: str) -> tuple[np.ndarray, bytes]:
             samples = data[:, 0] if data.ndim > 1 else data
         except Exception as e:
             raise ValueError(f"Cannot decode audio: {e}")
-        # Re-encode to WAV for consistent handling
+        
         wav_buf = io.BytesIO()
         with wave.open(wav_buf, "wb") as wf:
             wf.setnchannels(1)
@@ -301,7 +300,6 @@ def decode_upload(contents: str) -> tuple[np.ndarray, bytes]:
     if n_channels > 1:
         arr = arr[::n_channels]
 
-    # Rebuild mono WAV
     wav_buf = io.BytesIO()
     with wave.open(wav_buf, "wb") as wf:
         wf.setnchannels(1)
@@ -312,7 +310,6 @@ def decode_upload(contents: str) -> tuple[np.ndarray, bytes]:
 
 
 def run_full_analysis(samples: np.ndarray, selected_codecs: list, bitrate: int) -> dict:
-    """Run compression + metrics for all selected codecs at several bitrates."""
     duration = len(samples) / SAMPLE_RATE
     results = {"by_codec_bitrate": {}, "at_selected_bitrate": {}, "duration_s": duration}
 
@@ -344,7 +341,6 @@ def run_full_analysis(samples: np.ndarray, selected_codecs: list, bitrate: int) 
             except Exception as e:
                 results["by_codec_bitrate"][codec][br] = {"error": str(e)}
 
-        # Store at selected bitrate for summary cards
         entry = results["by_codec_bitrate"][codec].get(bitrate, {})
         results["at_selected_bitrate"][codec] = entry
 
@@ -391,7 +387,6 @@ def run_analysis(n_clicks, contents, selected_codecs, bitrate):
     except Exception as e:
         return no_update, no_update, f"❌ Error reading file: {e}"
 
-    # Truncate to 30s max for speed
     max_samples = SAMPLE_RATE * 30
     if len(samples) > max_samples:
         samples = samples[:max_samples]
@@ -401,11 +396,9 @@ def run_analysis(n_clicks, contents, selected_codecs, bitrate):
     except Exception as e:
         return no_update, no_update, f"❌ Analysis error: {e}"
 
-    # Store spectrogram for original
     spec = metrics_calc.compute_spectrogram(samples)
     analysis["spectrogram_orig"] = spec
 
-    # Store compressed audio for playback (first codec)
     compressed_b64_map = {}
     for codec in selected_codecs:
         try:
@@ -471,10 +464,11 @@ def update_metric_cards(data, bitrate):
     Output("latency-chart", "figure"),
     Output("waveform-chart", "figure"),
     Input("audio-store", "data"),
+    Input("bitrate-slider", "value"),    
     State("upload-audio", "contents"),
     prevent_initial_call=True,
 )
-def update_charts(data, contents):
+def update_charts(data, bitrate, contents):  
     empty = go.Figure(layout={**DARK_LAYOUT})
 
     if not data:
@@ -486,7 +480,7 @@ def update_charts(data, contents):
     # ── SNR vs Bitrate ───────────────────────────────────────────────
     fig_snr = go.Figure(layout={**DARK_LAYOUT, "yaxis_title": "SNR (dB)", "xaxis_title": "Bitrate (kbps)"})
     for codec, br_map in by_cb.items():
-        snrs = [br_map.get(br, {}).get("snr_db") for br in bitrates_x]
+        snrs = [br_map.get(str(br), {}).get("snr_db") for br in bitrates_x]
         snrs_clean = [v if v is not None else None for v in snrs]
         fig_snr.add_trace(go.Scatter(
             x=bitrates_x, y=snrs_clean, name=codec.upper(),
@@ -499,18 +493,22 @@ def update_charts(data, contents):
                                  "yaxis_title": "Compression Ratio (×)",
                                  "xaxis_title": "Bitrate (kbps)"})
     for codec, br_map in by_cb.items():
-        ratios = [br_map.get(br, {}).get("compression_ratio") for br in bitrates_x]
+        ratios = [br_map.get(str(br), {}).get("compression_ratio") for br in bitrates_x]
         fig_comp.add_trace(go.Bar(
             x=bitrates_x, y=ratios, name=codec.upper(),
             marker_color=COLORS.get(codec),
         ))
 
     # ── Latency ──────────────────────────────────────────────────────
+    br_str = str(bitrate)
     fig_lat = go.Figure(layout={**DARK_LAYOUT, "barmode": "group",
-                                "yaxis_title": "Latency (ms)", "xaxis_title": "Codec @ 128 kbps"})
+                                "yaxis_title": "Latency (ms)", 
+                                "xaxis_title": f"Codec @ {bitrate} kbps"}) 
     codecs_list = list(by_cb.keys())
-    enc_lats = [by_cb[c].get(128, {}).get("encode_latency_ms", 0) for c in codecs_list]
-    dec_lats = [by_cb[c].get(128, {}).get("decode_latency_ms", 0) for c in codecs_list]
+    
+    enc_lats = [by_cb[c].get(br_str, {}).get("encode_latency_ms", 0) for c in codecs_list]
+    dec_lats = [by_cb[c].get(br_str, {}).get("decode_latency_ms", 0) for c in codecs_list]
+    
     fig_lat.add_trace(go.Bar(x=[c.upper() for c in codecs_list], y=enc_lats,
                              name="Encode", marker_color="#818cf8"))
     fig_lat.add_trace(go.Bar(x=[c.upper() for c in codecs_list], y=dec_lats,
@@ -529,11 +527,10 @@ def update_charts(data, contents):
             fig_wave.add_trace(go.Scatter(x=t_ax[:len(orig_plot)], y=orig_plot.tolist(),
                                           name="Original", line=dict(color="#818cf8", width=1)))
 
-            # Show first selected codec waveform
             if codecs_list:
                 codec = codecs_list[0]
                 try:
-                    comp = codec_obj.compress(samples, codec, bitrate=128)
+                    comp = codec_obj.compress(samples, codec, bitrate=bitrate)
                     recon = codec_obj.decompress(comp, codec)
                     recon_plot = recon[::step][:n_plot]
                     fig_wave.add_trace(go.Scatter(
@@ -551,11 +548,12 @@ def update_charts(data, contents):
     Output("spectrogram-orig", "figure"),
     Output("spectrogram-comp", "figure"),
     Input("audio-store", "data"),
-    State("spec-codec-select", "value"),
+    Input("spec-codec-select", "value"), 
+    Input("bitrate-slider", "value"),    
     State("upload-audio", "contents"),
     prevent_initial_call=True,
 )
-def update_spectrograms(data, spec_codec, contents):
+def update_spectrograms(data, spec_codec, bitrate, contents):
     empty = go.Figure(layout={**DARK_LAYOUT})
     if not data or not contents:
         return empty, empty
@@ -586,12 +584,11 @@ def update_spectrograms(data, spec_codec, contents):
     orig_spec = data.get("spectrogram_orig", {})
     fig_orig = make_spectrogram_fig(orig_spec, "Original")
 
-    # Compute compressed spectrogram
     try:
-        comp = codec_obj.compress(samples, spec_codec, bitrate=128)
+        comp = codec_obj.compress(samples, spec_codec, bitrate=bitrate)
         recon = codec_obj.decompress(comp, spec_codec)
         comp_spec = metrics_calc.compute_spectrogram(recon)
-        fig_comp = make_spectrogram_fig(comp_spec, f"{spec_codec.upper()} @ 128 kbps")
+        fig_comp = make_spectrogram_fig(comp_spec, f"{spec_codec.upper()} @ {bitrate} kbps")
     except Exception as e:
         fig_comp = empty
 
@@ -602,18 +599,59 @@ def update_spectrograms(data, spec_codec, contents):
     Output("audio-original", "src"),
     Output("audio-compressed", "src"),
     Input("audio-store", "data"),
-    State("codec-select", "value"),
-    prevent_initial_call=True,
+    Input("spec-codec-select", "value"),  
+    prevent_initial_call=True
 )
-def update_playback(data, selected_codecs):
+def update_audio_playback(data, selected_codec):
     if not data:
-        return no_update, no_update
-    orig_src = data.get("original_b64", "")
-    comp_map = data.get("compressed_b64", {})
-    codec = (selected_codecs or ["mp3"])[0]
-    comp_src = comp_map.get(codec, "")
+        return dash.no_update, dash.no_update
+    
+    orig_src = data.get("original_b64")
+    comp_src = data.get("compressed_b64", {}).get(selected_codec)
+    
     return orig_src, comp_src
 
+
+@app.callback(
+    Output("live-chart", "figure"),
+    Input("live-interval", "n_intervals")
+)
+def update_live_chart(n_intervals):
+    fig = go.Figure(layout={
+        **DARK_LAYOUT, 
+        "yaxis_title": "Giá trị (dB / ms)", 
+        "xaxis_title": "Time (Chunks)",
+        "margin": dict(l=50, r=20, t=20, b=40)
+    })
+
+    filepath = "results/client_metrics.json"
+    
+    if not os.path.exists(filepath):
+        return fig
+
+    try:
+        with open(filepath, "r") as f:
+            history = json.load(f)
+        
+        if history:
+            history = history[-40:]
+            x_vals = list(range(len(history)))
+            
+            snr_mp3 = [item.get("codecs", {}).get("mp3", {}).get("snr_db", None) for item in history]
+            snr_opus = [item.get("codecs", {}).get("opus", {}).get("snr_db", None) for item in history]
+            latencies = [item.get("total_latency_ms", 0) for item in history]
+
+            fig.add_trace(go.Scatter(x=x_vals, y=snr_mp3, mode="lines+markers", 
+                                     name="MP3 SNR (dB)", line=dict(color="#636EFA")))
+            fig.add_trace(go.Scatter(x=x_vals, y=snr_opus, mode="lines+markers", 
+                                     name="Opus SNR (dB)", line=dict(color="#00CC96")))
+            fig.add_trace(go.Scatter(x=x_vals, y=latencies, mode="lines", 
+                                     name="Latency (ms)", line=dict(color="#EF553B", dash="dot")))
+            
+    except Exception:
+        pass
+
+    return fig
 
 # ---------------------------------------------------------------------------
 # Run

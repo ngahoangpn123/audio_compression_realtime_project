@@ -1,0 +1,5138 @@
+[
+  {
+    "type": "metrics",
+    "timestamp": 1776161804.9028447,
+    "chunk_samples": 4122,
+    "total_latency_ms": 787.67,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.32,
+        "psnr_db": 36.82,
+        "encode_latency_ms": 71.92,
+        "decode_latency_ms": 103.73,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.518,
+        "snr_db": -1.99,
+        "psnr_db": 9.51,
+        "encode_latency_ms": 45.67,
+        "decode_latency_ms": 236.77,
+        "original_bytes": 16488,
+        "compressed_bytes": 2193
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.927,
+        "snr_db": 27.69,
+        "psnr_db": 39.19,
+        "encode_latency_ms": 42.53,
+        "decode_latency_ms": 147.57,
+        "original_bytes": 16488,
+        "compressed_bytes": 2080
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.835,
+        "snr_db": 33.6,
+        "psnr_db": 45.1,
+        "encode_latency_ms": 41.67,
+        "decode_latency_ms": 94.72,
+        "original_bytes": 16488,
+        "compressed_bytes": 5815
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161805.6669567,
+    "chunk_samples": 4122,
+    "total_latency_ms": 668.92,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.81,
+        "psnr_db": 34.29,
+        "encode_latency_ms": 43.97,
+        "decode_latency_ms": 99.33,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.932,
+        "snr_db": -2.54,
+        "psnr_db": 6.94,
+        "encode_latency_ms": 40.63,
+        "decode_latency_ms": 157.0,
+        "original_bytes": 16488,
+        "compressed_bytes": 1846
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.878,
+        "snr_db": 28.35,
+        "psnr_db": 37.83,
+        "encode_latency_ms": 43.92,
+        "decode_latency_ms": 153.86,
+        "original_bytes": 16488,
+        "compressed_bytes": 2093
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.897,
+        "snr_db": 33.97,
+        "psnr_db": 43.45,
+        "encode_latency_ms": 50.18,
+        "decode_latency_ms": 76.85,
+        "original_bytes": 16488,
+        "compressed_bytes": 5692
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161806.3916144,
+    "chunk_samples": 4122,
+    "total_latency_ms": 631.07,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.31,
+        "psnr_db": 34.77,
+        "encode_latency_ms": 39.96,
+        "decode_latency_ms": 72.38,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 9.044,
+        "snr_db": -2.54,
+        "psnr_db": 6.92,
+        "encode_latency_ms": 40.34,
+        "decode_latency_ms": 145.69,
+        "original_bytes": 16488,
+        "compressed_bytes": 1823
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.086,
+        "snr_db": 28.55,
+        "psnr_db": 38.01,
+        "encode_latency_ms": 43.01,
+        "decode_latency_ms": 160.11,
+        "original_bytes": 16488,
+        "compressed_bytes": 2039
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.911,
+        "snr_db": 33.95,
+        "psnr_db": 43.41,
+        "encode_latency_ms": 47.92,
+        "decode_latency_ms": 79.46,
+        "original_bytes": 16488,
+        "compressed_bytes": 5665
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161807.0810552,
+    "chunk_samples": 4122,
+    "total_latency_ms": 595.93,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.4,
+        "psnr_db": 34.85,
+        "encode_latency_ms": 46.42,
+        "decode_latency_ms": 71.48,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.961,
+        "snr_db": -2.5,
+        "psnr_db": 6.95,
+        "encode_latency_ms": 37.38,
+        "decode_latency_ms": 141.74,
+        "original_bytes": 16488,
+        "compressed_bytes": 1840
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.241,
+        "snr_db": 29.84,
+        "psnr_db": 39.29,
+        "encode_latency_ms": 35.94,
+        "decode_latency_ms": 140.43,
+        "original_bytes": 16488,
+        "compressed_bytes": 2277
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.874,
+        "snr_db": 33.88,
+        "psnr_db": 43.33,
+        "encode_latency_ms": 42.12,
+        "decode_latency_ms": 78.09,
+        "original_bytes": 16488,
+        "compressed_bytes": 5737
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161807.8167112,
+    "chunk_samples": 4122,
+    "total_latency_ms": 642.14,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.9,
+        "psnr_db": 34.43,
+        "encode_latency_ms": 44.61,
+        "decode_latency_ms": 86.52,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.708,
+        "snr_db": -2.33,
+        "psnr_db": 7.2,
+        "encode_latency_ms": 45.99,
+        "decode_latency_ms": 161.36,
+        "original_bytes": 16488,
+        "compressed_bytes": 2139
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.792,
+        "snr_db": 28.81,
+        "psnr_db": 38.34,
+        "encode_latency_ms": 39.35,
+        "decode_latency_ms": 145.07,
+        "original_bytes": 16488,
+        "compressed_bytes": 2116
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.897,
+        "snr_db": 33.93,
+        "psnr_db": 43.46,
+        "encode_latency_ms": 42.3,
+        "decode_latency_ms": 74.2,
+        "original_bytes": 16488,
+        "compressed_bytes": 5692
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161808.5283723,
+    "chunk_samples": 4122,
+    "total_latency_ms": 619.0,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.02,
+        "psnr_db": 34.53,
+        "encode_latency_ms": 40.5,
+        "decode_latency_ms": 70.84,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.792,
+        "snr_db": -2.25,
+        "psnr_db": 7.25,
+        "encode_latency_ms": 40.59,
+        "decode_latency_ms": 139.29,
+        "original_bytes": 16488,
+        "compressed_bytes": 2116
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.785,
+        "snr_db": 28.32,
+        "psnr_db": 37.82,
+        "encode_latency_ms": 36.84,
+        "decode_latency_ms": 163.17,
+        "original_bytes": 16488,
+        "compressed_bytes": 2118
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.917,
+        "snr_db": 33.41,
+        "psnr_db": 42.92,
+        "encode_latency_ms": 43.98,
+        "decode_latency_ms": 81.11,
+        "original_bytes": 16488,
+        "compressed_bytes": 5653
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161809.2628915,
+    "chunk_samples": 4122,
+    "total_latency_ms": 641.43,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.32,
+        "psnr_db": 34.89,
+        "encode_latency_ms": 43.42,
+        "decode_latency_ms": 77.44,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.64,
+        "snr_db": -2.31,
+        "psnr_db": 7.27,
+        "encode_latency_ms": 50.87,
+        "decode_latency_ms": 150.47,
+        "original_bytes": 16488,
+        "compressed_bytes": 2158
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.058,
+        "snr_db": 28.71,
+        "psnr_db": 38.29,
+        "encode_latency_ms": 39.13,
+        "decode_latency_ms": 162.77,
+        "original_bytes": 16488,
+        "compressed_bytes": 2336
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.908,
+        "snr_db": 34.09,
+        "psnr_db": 43.67,
+        "encode_latency_ms": 40.64,
+        "decode_latency_ms": 74.04,
+        "original_bytes": 16488,
+        "compressed_bytes": 5669
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161809.9728627,
+    "chunk_samples": 4122,
+    "total_latency_ms": 616.83,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.03,
+        "psnr_db": 34.51,
+        "encode_latency_ms": 42.0,
+        "decode_latency_ms": 74.77,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.971,
+        "snr_db": -2.38,
+        "psnr_db": 7.09,
+        "encode_latency_ms": 42.42,
+        "decode_latency_ms": 152.03,
+        "original_bytes": 16488,
+        "compressed_bytes": 1838
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.602,
+        "snr_db": 28.91,
+        "psnr_db": 38.38,
+        "encode_latency_ms": 41.29,
+        "decode_latency_ms": 146.79,
+        "original_bytes": 16488,
+        "compressed_bytes": 2169
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.906,
+        "snr_db": 33.9,
+        "psnr_db": 43.37,
+        "encode_latency_ms": 39.71,
+        "decode_latency_ms": 75.12,
+        "original_bytes": 16488,
+        "compressed_bytes": 5673
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161810.6695955,
+    "chunk_samples": 4122,
+    "total_latency_ms": 598.77,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.07,
+        "psnr_db": 34.53,
+        "encode_latency_ms": 41.92,
+        "decode_latency_ms": 74.36,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.374,
+        "snr_db": -2.7,
+        "psnr_db": 6.76,
+        "encode_latency_ms": 41.38,
+        "decode_latency_ms": 142.57,
+        "original_bytes": 16488,
+        "compressed_bytes": 1969
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.574,
+        "snr_db": 28.96,
+        "psnr_db": 38.42,
+        "encode_latency_ms": 38.84,
+        "decode_latency_ms": 139.38,
+        "original_bytes": 16488,
+        "compressed_bytes": 2177
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.914,
+        "snr_db": 33.66,
+        "psnr_db": 43.13,
+        "encode_latency_ms": 43.03,
+        "decode_latency_ms": 74.72,
+        "original_bytes": 16488,
+        "compressed_bytes": 5659
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161811.3498309,
+    "chunk_samples": 4122,
+    "total_latency_ms": 584.08,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.23,
+        "psnr_db": 34.69,
+        "encode_latency_ms": 40.68,
+        "decode_latency_ms": 71.65,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.976,
+        "snr_db": -2.41,
+        "psnr_db": 7.05,
+        "encode_latency_ms": 40.29,
+        "decode_latency_ms": 143.63,
+        "original_bytes": 16488,
+        "compressed_bytes": 1837
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.341,
+        "snr_db": 28.94,
+        "psnr_db": 38.41,
+        "encode_latency_ms": 36.26,
+        "decode_latency_ms": 137.36,
+        "original_bytes": 16488,
+        "compressed_bytes": 2246
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.916,
+        "snr_db": 33.7,
+        "psnr_db": 43.17,
+        "encode_latency_ms": 40.92,
+        "decode_latency_ms": 71.08,
+        "original_bytes": 16488,
+        "compressed_bytes": 5655
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161812.0633888,
+    "chunk_samples": 4122,
+    "total_latency_ms": 617.24,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.26,
+        "psnr_db": 34.82,
+        "encode_latency_ms": 41.68,
+        "decode_latency_ms": 71.67,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.609,
+        "snr_db": -2.33,
+        "psnr_db": 7.24,
+        "encode_latency_ms": 40.49,
+        "decode_latency_ms": 155.9,
+        "original_bytes": 16488,
+        "compressed_bytes": 2167
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.283,
+        "snr_db": 30.03,
+        "psnr_db": 39.6,
+        "encode_latency_ms": 39.76,
+        "decode_latency_ms": 151.8,
+        "original_bytes": 16488,
+        "compressed_bytes": 2264
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.912,
+        "snr_db": 33.76,
+        "psnr_db": 43.33,
+        "encode_latency_ms": 39.95,
+        "decode_latency_ms": 73.53,
+        "original_bytes": 16488,
+        "compressed_bytes": 5663
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161812.7752876,
+    "chunk_samples": 4122,
+    "total_latency_ms": 618.37,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.87,
+        "psnr_db": 34.38,
+        "encode_latency_ms": 39.46,
+        "decode_latency_ms": 75.34,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.57,
+        "snr_db": -2.29,
+        "psnr_db": 7.22,
+        "encode_latency_ms": 40.44,
+        "decode_latency_ms": 142.93,
+        "original_bytes": 16488,
+        "compressed_bytes": 2178
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.563,
+        "snr_db": 27.14,
+        "psnr_db": 36.65,
+        "encode_latency_ms": 38.62,
+        "decode_latency_ms": 151.99,
+        "original_bytes": 16488,
+        "compressed_bytes": 2180
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.885,
+        "snr_db": 34.22,
+        "psnr_db": 43.73,
+        "encode_latency_ms": 48.98,
+        "decode_latency_ms": 78.08,
+        "original_bytes": 16488,
+        "compressed_bytes": 5715
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161813.456441,
+    "chunk_samples": 4122,
+    "total_latency_ms": 588.88,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.71,
+        "psnr_db": 34.26,
+        "encode_latency_ms": 39.22,
+        "decode_latency_ms": 79.52,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.937,
+        "snr_db": -2.38,
+        "psnr_db": 7.18,
+        "encode_latency_ms": 38.91,
+        "decode_latency_ms": 143.74,
+        "original_bytes": 16488,
+        "compressed_bytes": 1845
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.616,
+        "snr_db": 29.34,
+        "psnr_db": 38.89,
+        "encode_latency_ms": 36.56,
+        "decode_latency_ms": 136.88,
+        "original_bytes": 16488,
+        "compressed_bytes": 2165
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.92,
+        "snr_db": 33.51,
+        "psnr_db": 43.06,
+        "encode_latency_ms": 39.65,
+        "decode_latency_ms": 71.9,
+        "original_bytes": 16488,
+        "compressed_bytes": 5646
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161814.1474748,
+    "chunk_samples": 4122,
+    "total_latency_ms": 594.32,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.47,
+        "psnr_db": 33.93,
+        "encode_latency_ms": 39.6,
+        "decode_latency_ms": 71.01,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.912,
+        "snr_db": -2.59,
+        "psnr_db": 6.86,
+        "encode_latency_ms": 40.42,
+        "decode_latency_ms": 142.01,
+        "original_bytes": 16488,
+        "compressed_bytes": 1850
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.56,
+        "snr_db": 29.65,
+        "psnr_db": 39.1,
+        "encode_latency_ms": 38.54,
+        "decode_latency_ms": 145.33,
+        "original_bytes": 16488,
+        "compressed_bytes": 2181
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.912,
+        "snr_db": 33.82,
+        "psnr_db": 43.27,
+        "encode_latency_ms": 41.03,
+        "decode_latency_ms": 74.11,
+        "original_bytes": 16488,
+        "compressed_bytes": 5663
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161814.8369114,
+    "chunk_samples": 4122,
+    "total_latency_ms": 593.29,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.31,
+        "psnr_db": 34.77,
+        "encode_latency_ms": 41.15,
+        "decode_latency_ms": 71.87,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.651,
+        "snr_db": -2.55,
+        "psnr_db": 6.91,
+        "encode_latency_ms": 39.92,
+        "decode_latency_ms": 142.0,
+        "original_bytes": 16488,
+        "compressed_bytes": 2155
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.142,
+        "snr_db": 28.63,
+        "psnr_db": 38.08,
+        "encode_latency_ms": 37.43,
+        "decode_latency_ms": 139.46,
+        "original_bytes": 16488,
+        "compressed_bytes": 2025
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.91,
+        "snr_db": 34.01,
+        "psnr_db": 43.46,
+        "encode_latency_ms": 41.77,
+        "decode_latency_ms": 77.43,
+        "original_bytes": 16488,
+        "compressed_bytes": 5666
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161815.5146039,
+    "chunk_samples": 4122,
+    "total_latency_ms": 584.63,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.88,
+        "psnr_db": 34.34,
+        "encode_latency_ms": 38.55,
+        "decode_latency_ms": 72.07,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.525,
+        "snr_db": -2.39,
+        "psnr_db": 7.07,
+        "encode_latency_ms": 38.27,
+        "decode_latency_ms": 140.36,
+        "original_bytes": 16488,
+        "compressed_bytes": 2191
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.223,
+        "snr_db": 28.72,
+        "psnr_db": 38.19,
+        "encode_latency_ms": 36.95,
+        "decode_latency_ms": 142.68,
+        "original_bytes": 16488,
+        "compressed_bytes": 2005
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.919,
+        "snr_db": 33.65,
+        "psnr_db": 43.12,
+        "encode_latency_ms": 39.97,
+        "decode_latency_ms": 73.43,
+        "original_bytes": 16488,
+        "compressed_bytes": 5649
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161816.2405937,
+    "chunk_samples": 4122,
+    "total_latency_ms": 629.53,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.29,
+        "psnr_db": 34.85,
+        "encode_latency_ms": 40.17,
+        "decode_latency_ms": 70.74,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 9.005,
+        "snr_db": -2.27,
+        "psnr_db": 7.29,
+        "encode_latency_ms": 39.88,
+        "decode_latency_ms": 142.41,
+        "original_bytes": 16488,
+        "compressed_bytes": 1831
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.344,
+        "snr_db": 29.23,
+        "psnr_db": 38.8,
+        "encode_latency_ms": 38.81,
+        "decode_latency_ms": 184.78,
+        "original_bytes": 16488,
+        "compressed_bytes": 2245
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.899,
+        "snr_db": 33.86,
+        "psnr_db": 43.42,
+        "encode_latency_ms": 39.34,
+        "decode_latency_ms": 71.21,
+        "original_bytes": 16488,
+        "compressed_bytes": 5687
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161816.9385362,
+    "chunk_samples": 4122,
+    "total_latency_ms": 602.65,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.73,
+        "psnr_db": 34.24,
+        "encode_latency_ms": 38.63,
+        "decode_latency_ms": 73.96,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.897,
+        "snr_db": -2.27,
+        "psnr_db": 7.24,
+        "encode_latency_ms": 43.15,
+        "decode_latency_ms": 153.69,
+        "original_bytes": 16488,
+        "compressed_bytes": 2088
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.144,
+        "snr_db": 29.56,
+        "psnr_db": 39.08,
+        "encode_latency_ms": 37.51,
+        "decode_latency_ms": 138.74,
+        "original_bytes": 16488,
+        "compressed_bytes": 2308
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.905,
+        "snr_db": 34.05,
+        "psnr_db": 43.56,
+        "encode_latency_ms": 39.57,
+        "decode_latency_ms": 74.91,
+        "original_bytes": 16488,
+        "compressed_bytes": 5676
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161817.6252334,
+    "chunk_samples": 4122,
+    "total_latency_ms": 594.67,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.22,
+        "psnr_db": 34.72,
+        "encode_latency_ms": 37.22,
+        "decode_latency_ms": 91.1,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.845,
+        "snr_db": -2.61,
+        "psnr_db": 6.89,
+        "encode_latency_ms": 38.86,
+        "decode_latency_ms": 136.3,
+        "original_bytes": 16488,
+        "compressed_bytes": 1864
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.325,
+        "snr_db": 29.64,
+        "psnr_db": 39.14,
+        "encode_latency_ms": 40.3,
+        "decode_latency_ms": 137.53,
+        "original_bytes": 16488,
+        "compressed_bytes": 2251
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.899,
+        "snr_db": 33.77,
+        "psnr_db": 43.28,
+        "encode_latency_ms": 40.79,
+        "decode_latency_ms": 70.1,
+        "original_bytes": 16488,
+        "compressed_bytes": 5687
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161818.3206768,
+    "chunk_samples": 4122,
+    "total_latency_ms": 601.84,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.43,
+        "psnr_db": 34.9,
+        "encode_latency_ms": 39.04,
+        "decode_latency_ms": 71.21,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.644,
+        "snr_db": -2.6,
+        "psnr_db": 6.87,
+        "encode_latency_ms": 40.28,
+        "decode_latency_ms": 139.58,
+        "original_bytes": 16488,
+        "compressed_bytes": 2157
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.546,
+        "snr_db": 28.92,
+        "psnr_db": 38.39,
+        "encode_latency_ms": 36.98,
+        "decode_latency_ms": 146.14,
+        "original_bytes": 16488,
+        "compressed_bytes": 2185
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.923,
+        "snr_db": 33.8,
+        "psnr_db": 43.27,
+        "encode_latency_ms": 42.42,
+        "decode_latency_ms": 84.06,
+        "original_bytes": 16488,
+        "compressed_bytes": 5641
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161819.045019,
+    "chunk_samples": 4122,
+    "total_latency_ms": 628.76,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.98,
+        "psnr_db": 34.44,
+        "encode_latency_ms": 43.33,
+        "decode_latency_ms": 75.18,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.961,
+        "snr_db": -2.58,
+        "psnr_db": 6.88,
+        "encode_latency_ms": 44.99,
+        "decode_latency_ms": 151.81,
+        "original_bytes": 16488,
+        "compressed_bytes": 1840
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.822,
+        "snr_db": 29.73,
+        "psnr_db": 39.19,
+        "encode_latency_ms": 38.04,
+        "decode_latency_ms": 151.71,
+        "original_bytes": 16488,
+        "compressed_bytes": 2108
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.904,
+        "snr_db": 34.11,
+        "psnr_db": 43.57,
+        "encode_latency_ms": 42.36,
+        "decode_latency_ms": 78.77,
+        "original_bytes": 16488,
+        "compressed_bytes": 5677
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161819.720324,
+    "chunk_samples": 4122,
+    "total_latency_ms": 582.99,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.74,
+        "psnr_db": 34.25,
+        "encode_latency_ms": 45.29,
+        "decode_latency_ms": 70.15,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.595,
+        "snr_db": -2.29,
+        "psnr_db": 7.22,
+        "encode_latency_ms": 40.12,
+        "decode_latency_ms": 137.04,
+        "original_bytes": 16488,
+        "compressed_bytes": 2171
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.15,
+        "snr_db": 28.91,
+        "psnr_db": 38.42,
+        "encode_latency_ms": 37.74,
+        "decode_latency_ms": 139.65,
+        "original_bytes": 16488,
+        "compressed_bytes": 2023
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.901,
+        "snr_db": 33.71,
+        "psnr_db": 43.22,
+        "encode_latency_ms": 39.55,
+        "decode_latency_ms": 71.24,
+        "original_bytes": 16488,
+        "compressed_bytes": 5684
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161820.4564567,
+    "chunk_samples": 4122,
+    "total_latency_ms": 640.83,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.02,
+        "psnr_db": 34.54,
+        "encode_latency_ms": 38.18,
+        "decode_latency_ms": 76.8,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.992,
+        "snr_db": -2.32,
+        "psnr_db": 7.21,
+        "encode_latency_ms": 42.85,
+        "decode_latency_ms": 161.6,
+        "original_bytes": 16488,
+        "compressed_bytes": 2063
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.878,
+        "snr_db": 28.21,
+        "psnr_db": 37.73,
+        "encode_latency_ms": 47.98,
+        "decode_latency_ms": 141.56,
+        "original_bytes": 16488,
+        "compressed_bytes": 2093
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.912,
+        "snr_db": 33.79,
+        "psnr_db": 43.31,
+        "encode_latency_ms": 38.91,
+        "decode_latency_ms": 90.37,
+        "original_bytes": 16488,
+        "compressed_bytes": 5662
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161821.217911,
+    "chunk_samples": 4122,
+    "total_latency_ms": 668.78,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.17,
+        "psnr_db": 34.72,
+        "encode_latency_ms": 49.48,
+        "decode_latency_ms": 81.95,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.584,
+        "snr_db": -2.31,
+        "psnr_db": 7.25,
+        "encode_latency_ms": 47.25,
+        "decode_latency_ms": 167.84,
+        "original_bytes": 16488,
+        "compressed_bytes": 2174
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.874,
+        "snr_db": 28.82,
+        "psnr_db": 38.38,
+        "encode_latency_ms": 41.34,
+        "decode_latency_ms": 153.96,
+        "original_bytes": 16488,
+        "compressed_bytes": 2094
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.909,
+        "snr_db": 33.41,
+        "psnr_db": 42.97,
+        "encode_latency_ms": 45.12,
+        "decode_latency_ms": 79.51,
+        "original_bytes": 16488,
+        "compressed_bytes": 5668
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161821.9688554,
+    "chunk_samples": 4122,
+    "total_latency_ms": 659.03,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.14,
+        "psnr_db": 34.62,
+        "encode_latency_ms": 45.06,
+        "decode_latency_ms": 82.17,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.884,
+        "snr_db": -2.48,
+        "psnr_db": 7.0,
+        "encode_latency_ms": 46.92,
+        "decode_latency_ms": 158.93,
+        "original_bytes": 16488,
+        "compressed_bytes": 1856
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.637,
+        "snr_db": 29.4,
+        "psnr_db": 38.88,
+        "encode_latency_ms": 41.89,
+        "decode_latency_ms": 163.56,
+        "original_bytes": 16488,
+        "compressed_bytes": 2159
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.909,
+        "snr_db": 33.86,
+        "psnr_db": 43.33,
+        "encode_latency_ms": 43.09,
+        "decode_latency_ms": 74.97,
+        "original_bytes": 16488,
+        "compressed_bytes": 5668
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161822.7169151,
+    "chunk_samples": 4122,
+    "total_latency_ms": 654.29,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.53,
+        "psnr_db": 35.0,
+        "encode_latency_ms": 45.94,
+        "decode_latency_ms": 79.6,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 9.035,
+        "snr_db": -2.59,
+        "psnr_db": 6.87,
+        "encode_latency_ms": 43.71,
+        "decode_latency_ms": 159.77,
+        "original_bytes": 16488,
+        "compressed_bytes": 1825
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.292,
+        "snr_db": 29.4,
+        "psnr_db": 38.86,
+        "encode_latency_ms": 44.66,
+        "decode_latency_ms": 152.21,
+        "original_bytes": 16488,
+        "compressed_bytes": 2261
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.901,
+        "snr_db": 33.91,
+        "psnr_db": 43.37,
+        "encode_latency_ms": 46.87,
+        "decode_latency_ms": 79.25,
+        "original_bytes": 16488,
+        "compressed_bytes": 5683
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161823.506848,
+    "chunk_samples": 4122,
+    "total_latency_ms": 696.66,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.39,
+        "psnr_db": 34.86,
+        "encode_latency_ms": 52.95,
+        "decode_latency_ms": 86.49,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.574,
+        "snr_db": -2.37,
+        "psnr_db": 7.1,
+        "encode_latency_ms": 85.37,
+        "decode_latency_ms": 179.08,
+        "original_bytes": 16488,
+        "compressed_bytes": 2177
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.546,
+        "snr_db": 29.63,
+        "psnr_db": 39.1,
+        "encode_latency_ms": 36.58,
+        "decode_latency_ms": 137.88,
+        "original_bytes": 16488,
+        "compressed_bytes": 2185
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.864,
+        "snr_db": 33.72,
+        "psnr_db": 43.18,
+        "encode_latency_ms": 40.76,
+        "decode_latency_ms": 75.26,
+        "original_bytes": 16488,
+        "compressed_bytes": 5757
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161824.3130097,
+    "chunk_samples": 4122,
+    "total_latency_ms": 712.68,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.12,
+        "psnr_db": 34.66,
+        "encode_latency_ms": 70.76,
+        "decode_latency_ms": 78.95,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.777,
+        "snr_db": -2.33,
+        "psnr_db": 7.21,
+        "encode_latency_ms": 46.43,
+        "decode_latency_ms": 177.3,
+        "original_bytes": 16488,
+        "compressed_bytes": 2120
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.866,
+        "snr_db": 28.93,
+        "psnr_db": 38.47,
+        "encode_latency_ms": 49.12,
+        "decode_latency_ms": 160.88,
+        "original_bytes": 16488,
+        "compressed_bytes": 2096
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.916,
+        "snr_db": 33.81,
+        "psnr_db": 43.34,
+        "encode_latency_ms": 44.33,
+        "decode_latency_ms": 80.66,
+        "original_bytes": 16488,
+        "compressed_bytes": 5654
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161825.0317252,
+    "chunk_samples": 4122,
+    "total_latency_ms": 623.55,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.97,
+        "psnr_db": 34.45,
+        "encode_latency_ms": 47.36,
+        "decode_latency_ms": 83.07,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.477,
+        "snr_db": -2.32,
+        "psnr_db": 7.16,
+        "encode_latency_ms": 43.24,
+        "decode_latency_ms": 152.35,
+        "original_bytes": 16488,
+        "compressed_bytes": 1945
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.238,
+        "snr_db": 28.54,
+        "psnr_db": 38.02,
+        "encode_latency_ms": 39.89,
+        "decode_latency_ms": 142.97,
+        "original_bytes": 16488,
+        "compressed_bytes": 2278
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.914,
+        "snr_db": 33.55,
+        "psnr_db": 43.03,
+        "encode_latency_ms": 42.09,
+        "decode_latency_ms": 70.31,
+        "original_bytes": 16488,
+        "compressed_bytes": 5658
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161825.7836516,
+    "chunk_samples": 4122,
+    "total_latency_ms": 658.88,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.98,
+        "psnr_db": 34.51,
+        "encode_latency_ms": 42.74,
+        "decode_latency_ms": 83.49,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.951,
+        "snr_db": -2.4,
+        "psnr_db": 7.13,
+        "encode_latency_ms": 46.54,
+        "decode_latency_ms": 162.85,
+        "original_bytes": 16488,
+        "compressed_bytes": 1842
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.539,
+        "snr_db": 29.63,
+        "psnr_db": 39.16,
+        "encode_latency_ms": 42.36,
+        "decode_latency_ms": 156.85,
+        "original_bytes": 16488,
+        "compressed_bytes": 2187
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.915,
+        "snr_db": 33.86,
+        "psnr_db": 43.39,
+        "encode_latency_ms": 44.77,
+        "decode_latency_ms": 76.7,
+        "original_bytes": 16488,
+        "compressed_bytes": 5657
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161826.521211,
+    "chunk_samples": 4122,
+    "total_latency_ms": 644.01,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.85,
+        "psnr_db": 34.32,
+        "encode_latency_ms": 55.77,
+        "decode_latency_ms": 83.92,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.827,
+        "snr_db": -2.52,
+        "psnr_db": 6.96,
+        "encode_latency_ms": 46.35,
+        "decode_latency_ms": 154.0,
+        "original_bytes": 16488,
+        "compressed_bytes": 1868
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.549,
+        "snr_db": 28.93,
+        "psnr_db": 38.4,
+        "encode_latency_ms": 39.02,
+        "decode_latency_ms": 144.87,
+        "original_bytes": 16488,
+        "compressed_bytes": 2184
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.911,
+        "snr_db": 33.63,
+        "psnr_db": 43.1,
+        "encode_latency_ms": 40.69,
+        "decode_latency_ms": 76.6,
+        "original_bytes": 16488,
+        "compressed_bytes": 5665
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161827.220187,
+    "chunk_samples": 4122,
+    "total_latency_ms": 605.95,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.88,
+        "psnr_db": 34.35,
+        "encode_latency_ms": 42.49,
+        "decode_latency_ms": 70.35,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.995,
+        "snr_db": -2.56,
+        "psnr_db": 6.9,
+        "encode_latency_ms": 39.88,
+        "decode_latency_ms": 153.12,
+        "original_bytes": 16488,
+        "compressed_bytes": 1833
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.539,
+        "snr_db": 29.21,
+        "psnr_db": 38.67,
+        "encode_latency_ms": 37.91,
+        "decode_latency_ms": 142.46,
+        "original_bytes": 16488,
+        "compressed_bytes": 2187
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.823,
+        "snr_db": 34.3,
+        "psnr_db": 43.76,
+        "encode_latency_ms": 41.08,
+        "decode_latency_ms": 76.19,
+        "original_bytes": 16488,
+        "compressed_bytes": 5841
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161827.9081416,
+    "chunk_samples": 4122,
+    "total_latency_ms": 595.24,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.33,
+        "psnr_db": 34.8,
+        "encode_latency_ms": 37.39,
+        "decode_latency_ms": 68.34,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.623,
+        "snr_db": -2.37,
+        "psnr_db": 7.1,
+        "encode_latency_ms": 39.15,
+        "decode_latency_ms": 136.42,
+        "original_bytes": 16488,
+        "compressed_bytes": 2163
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.647,
+        "snr_db": 29.23,
+        "psnr_db": 38.7,
+        "encode_latency_ms": 35.5,
+        "decode_latency_ms": 152.23,
+        "original_bytes": 16488,
+        "compressed_bytes": 2156
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.908,
+        "snr_db": 33.77,
+        "psnr_db": 43.24,
+        "encode_latency_ms": 43.98,
+        "decode_latency_ms": 79.86,
+        "original_bytes": 16488,
+        "compressed_bytes": 5669
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161828.6128669,
+    "chunk_samples": 4122,
+    "total_latency_ms": 612.2,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.31,
+        "psnr_db": 34.87,
+        "encode_latency_ms": 39.82,
+        "decode_latency_ms": 76.73,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.605,
+        "snr_db": -2.23,
+        "psnr_db": 7.33,
+        "encode_latency_ms": 43.15,
+        "decode_latency_ms": 160.23,
+        "original_bytes": 16488,
+        "compressed_bytes": 2168
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.595,
+        "snr_db": 27.92,
+        "psnr_db": 37.48,
+        "encode_latency_ms": 41.15,
+        "decode_latency_ms": 138.11,
+        "original_bytes": 16488,
+        "compressed_bytes": 2171
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.91,
+        "snr_db": 33.68,
+        "psnr_db": 43.24,
+        "encode_latency_ms": 38.51,
+        "decode_latency_ms": 71.96,
+        "original_bytes": 16488,
+        "compressed_bytes": 5666
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161829.3318021,
+    "chunk_samples": 4122,
+    "total_latency_ms": 624.53,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.84,
+        "psnr_db": 34.37,
+        "encode_latency_ms": 44.27,
+        "decode_latency_ms": 80.17,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.669,
+        "snr_db": -2.35,
+        "psnr_db": 7.18,
+        "encode_latency_ms": 47.33,
+        "decode_latency_ms": 145.89,
+        "original_bytes": 16488,
+        "compressed_bytes": 1902
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.013,
+        "snr_db": 28.75,
+        "psnr_db": 38.28,
+        "encode_latency_ms": 39.0,
+        "decode_latency_ms": 143.57,
+        "original_bytes": 16488,
+        "compressed_bytes": 2351
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.914,
+        "snr_db": 33.33,
+        "psnr_db": 42.87,
+        "encode_latency_ms": 43.32,
+        "decode_latency_ms": 77.94,
+        "original_bytes": 16488,
+        "compressed_bytes": 5659
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161830.0273428,
+    "chunk_samples": 4122,
+    "total_latency_ms": 603.21,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.06,
+        "psnr_db": 34.56,
+        "encode_latency_ms": 38.89,
+        "decode_latency_ms": 74.06,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.908,
+        "snr_db": -2.5,
+        "psnr_db": 7.0,
+        "encode_latency_ms": 39.68,
+        "decode_latency_ms": 145.73,
+        "original_bytes": 16488,
+        "compressed_bytes": 1851
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.584,
+        "snr_db": 28.92,
+        "psnr_db": 38.42,
+        "encode_latency_ms": 39.73,
+        "decode_latency_ms": 145.99,
+        "original_bytes": 16488,
+        "compressed_bytes": 2174
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.918,
+        "snr_db": 33.41,
+        "psnr_db": 42.91,
+        "encode_latency_ms": 40.76,
+        "decode_latency_ms": 75.99,
+        "original_bytes": 16488,
+        "compressed_bytes": 5650
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161830.7192023,
+    "chunk_samples": 4122,
+    "total_latency_ms": 596.72,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.76,
+        "psnr_db": 34.22,
+        "encode_latency_ms": 40.89,
+        "decode_latency_ms": 71.24,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.855,
+        "snr_db": -2.39,
+        "psnr_db": 7.07,
+        "encode_latency_ms": 39.35,
+        "decode_latency_ms": 147.68,
+        "original_bytes": 16488,
+        "compressed_bytes": 1862
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.498,
+        "snr_db": 30.78,
+        "psnr_db": 40.24,
+        "encode_latency_ms": 37.62,
+        "decode_latency_ms": 142.24,
+        "original_bytes": 16488,
+        "compressed_bytes": 2199
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.907,
+        "snr_db": 33.76,
+        "psnr_db": 43.22,
+        "encode_latency_ms": 39.99,
+        "decode_latency_ms": 75.09,
+        "original_bytes": 16488,
+        "compressed_bytes": 5672
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161831.4037561,
+    "chunk_samples": 4122,
+    "total_latency_ms": 591.4,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.83,
+        "psnr_db": 34.29,
+        "encode_latency_ms": 38.45,
+        "decode_latency_ms": 74.2,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.841,
+        "snr_db": -2.32,
+        "psnr_db": 7.14,
+        "encode_latency_ms": 40.1,
+        "decode_latency_ms": 142.4,
+        "original_bytes": 16488,
+        "compressed_bytes": 1865
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.549,
+        "snr_db": 28.05,
+        "psnr_db": 37.51,
+        "encode_latency_ms": 37.05,
+        "decode_latency_ms": 141.04,
+        "original_bytes": 16488,
+        "compressed_bytes": 2184
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.908,
+        "snr_db": 33.92,
+        "psnr_db": 43.38,
+        "encode_latency_ms": 40.14,
+        "decode_latency_ms": 75.57,
+        "original_bytes": 16488,
+        "compressed_bytes": 5670
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161832.1037183,
+    "chunk_samples": 4122,
+    "total_latency_ms": 606.93,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.82,
+        "psnr_db": 34.32,
+        "encode_latency_ms": 39.57,
+        "decode_latency_ms": 75.93,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.623,
+        "snr_db": -2.32,
+        "psnr_db": 7.18,
+        "encode_latency_ms": 40.93,
+        "decode_latency_ms": 146.01,
+        "original_bytes": 16488,
+        "compressed_bytes": 1912
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.995,
+        "snr_db": 29.67,
+        "psnr_db": 39.17,
+        "encode_latency_ms": 40.43,
+        "decode_latency_ms": 144.45,
+        "original_bytes": 16488,
+        "compressed_bytes": 2357
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.897,
+        "snr_db": 33.57,
+        "psnr_db": 43.07,
+        "encode_latency_ms": 43.06,
+        "decode_latency_ms": 73.89,
+        "original_bytes": 16488,
+        "compressed_bytes": 5691
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161832.7926357,
+    "chunk_samples": 4122,
+    "total_latency_ms": 596.02,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.86,
+        "psnr_db": 34.39,
+        "encode_latency_ms": 41.75,
+        "decode_latency_ms": 69.95,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.655,
+        "snr_db": -2.22,
+        "psnr_db": 7.31,
+        "encode_latency_ms": 39.14,
+        "decode_latency_ms": 137.53,
+        "original_bytes": 16488,
+        "compressed_bytes": 2154
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.058,
+        "snr_db": 30.05,
+        "psnr_db": 39.58,
+        "encode_latency_ms": 39.51,
+        "decode_latency_ms": 145.88,
+        "original_bytes": 16488,
+        "compressed_bytes": 2336
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.896,
+        "snr_db": 33.84,
+        "psnr_db": 43.37,
+        "encode_latency_ms": 40.48,
+        "decode_latency_ms": 79.39,
+        "original_bytes": 16488,
+        "compressed_bytes": 5693
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161833.485891,
+    "chunk_samples": 4122,
+    "total_latency_ms": 600.28,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.07,
+        "psnr_db": 34.61,
+        "encode_latency_ms": 41.26,
+        "decode_latency_ms": 71.36,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.808,
+        "snr_db": -2.3,
+        "psnr_db": 7.24,
+        "encode_latency_ms": 43.15,
+        "decode_latency_ms": 144.64,
+        "original_bytes": 16488,
+        "compressed_bytes": 1872
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.874,
+        "snr_db": 29.06,
+        "psnr_db": 38.6,
+        "encode_latency_ms": 39.15,
+        "decode_latency_ms": 140.66,
+        "original_bytes": 16488,
+        "compressed_bytes": 2094
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.905,
+        "snr_db": 33.65,
+        "psnr_db": 43.2,
+        "encode_latency_ms": 41.78,
+        "decode_latency_ms": 75.75,
+        "original_bytes": 16488,
+        "compressed_bytes": 5675
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161834.1963408,
+    "chunk_samples": 4122,
+    "total_latency_ms": 615.74,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.77,
+        "psnr_db": 34.25,
+        "encode_latency_ms": 43.7,
+        "decode_latency_ms": 82.83,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.879,
+        "snr_db": -2.47,
+        "psnr_db": 7.01,
+        "encode_latency_ms": 43.28,
+        "decode_latency_ms": 149.63,
+        "original_bytes": 16488,
+        "compressed_bytes": 1857
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.866,
+        "snr_db": 29.47,
+        "psnr_db": 38.95,
+        "encode_latency_ms": 39.59,
+        "decode_latency_ms": 140.58,
+        "original_bytes": 16488,
+        "compressed_bytes": 2096
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.901,
+        "snr_db": 33.57,
+        "psnr_db": 43.05,
+        "encode_latency_ms": 40.07,
+        "decode_latency_ms": 73.79,
+        "original_bytes": 16488,
+        "compressed_bytes": 5684
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161834.8964868,
+    "chunk_samples": 4122,
+    "total_latency_ms": 608.14,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.87,
+        "psnr_db": 34.32,
+        "encode_latency_ms": 42.9,
+        "decode_latency_ms": 76.57,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.941,
+        "snr_db": -2.64,
+        "psnr_db": 6.81,
+        "encode_latency_ms": 41.3,
+        "decode_latency_ms": 145.28,
+        "original_bytes": 16488,
+        "compressed_bytes": 1844
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.851,
+        "snr_db": 29.01,
+        "psnr_db": 38.47,
+        "encode_latency_ms": 40.55,
+        "decode_latency_ms": 144.6,
+        "original_bytes": 16488,
+        "compressed_bytes": 2100
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.911,
+        "snr_db": 33.51,
+        "psnr_db": 42.97,
+        "encode_latency_ms": 39.74,
+        "decode_latency_ms": 74.84,
+        "original_bytes": 16488,
+        "compressed_bytes": 5664
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161835.6216638,
+    "chunk_samples": 4122,
+    "total_latency_ms": 631.77,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.21,
+        "psnr_db": 34.67,
+        "encode_latency_ms": 39.52,
+        "decode_latency_ms": 74.38,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.903,
+        "snr_db": -2.37,
+        "psnr_db": 7.08,
+        "encode_latency_ms": 42.21,
+        "decode_latency_ms": 156.0,
+        "original_bytes": 16488,
+        "compressed_bytes": 1852
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.263,
+        "snr_db": 30.03,
+        "psnr_db": 39.48,
+        "encode_latency_ms": 42.55,
+        "decode_latency_ms": 153.35,
+        "original_bytes": 16488,
+        "compressed_bytes": 2270
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.909,
+        "snr_db": 33.81,
+        "psnr_db": 43.27,
+        "encode_latency_ms": 43.6,
+        "decode_latency_ms": 77.21,
+        "original_bytes": 16488,
+        "compressed_bytes": 5668
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161836.3354418,
+    "chunk_samples": 4122,
+    "total_latency_ms": 620.8,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.7,
+        "psnr_db": 34.24,
+        "encode_latency_ms": 44.2,
+        "decode_latency_ms": 75.42,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.546,
+        "snr_db": -2.23,
+        "psnr_db": 7.31,
+        "encode_latency_ms": 57.37,
+        "decode_latency_ms": 137.03,
+        "original_bytes": 16488,
+        "compressed_bytes": 2185
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.969,
+        "snr_db": 29.5,
+        "psnr_db": 39.05,
+        "encode_latency_ms": 37.56,
+        "decode_latency_ms": 142.34,
+        "original_bytes": 16488,
+        "compressed_bytes": 2366
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.899,
+        "snr_db": 33.7,
+        "psnr_db": 43.25,
+        "encode_latency_ms": 44.53,
+        "decode_latency_ms": 79.69,
+        "original_bytes": 16488,
+        "compressed_bytes": 5687
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161837.0364797,
+    "chunk_samples": 4122,
+    "total_latency_ms": 607.57,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.19,
+        "psnr_db": 34.71,
+        "encode_latency_ms": 47.54,
+        "decode_latency_ms": 77.43,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.609,
+        "snr_db": -2.37,
+        "psnr_db": 7.15,
+        "encode_latency_ms": 43.54,
+        "decode_latency_ms": 143.07,
+        "original_bytes": 16488,
+        "compressed_bytes": 2167
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.978,
+        "snr_db": 30.39,
+        "psnr_db": 39.91,
+        "encode_latency_ms": 36.22,
+        "decode_latency_ms": 142.56,
+        "original_bytes": 16488,
+        "compressed_bytes": 2363
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.916,
+        "snr_db": 33.52,
+        "psnr_db": 43.04,
+        "encode_latency_ms": 41.15,
+        "decode_latency_ms": 73.79,
+        "original_bytes": 16488,
+        "compressed_bytes": 5654
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161837.7275271,
+    "chunk_samples": 4122,
+    "total_latency_ms": 595.08,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.55,
+        "psnr_db": 34.1,
+        "encode_latency_ms": 40.04,
+        "decode_latency_ms": 89.05,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.616,
+        "snr_db": -2.37,
+        "psnr_db": 7.18,
+        "encode_latency_ms": 41.71,
+        "decode_latency_ms": 141.57,
+        "original_bytes": 16488,
+        "compressed_bytes": 2165
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.315,
+        "snr_db": 28.84,
+        "psnr_db": 38.39,
+        "encode_latency_ms": 36.8,
+        "decode_latency_ms": 135.26,
+        "original_bytes": 16488,
+        "compressed_bytes": 2254
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.902,
+        "snr_db": 34.05,
+        "psnr_db": 43.6,
+        "encode_latency_ms": 38.65,
+        "decode_latency_ms": 69.77,
+        "original_bytes": 16488,
+        "compressed_bytes": 5681
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161838.405068,
+    "chunk_samples": 4122,
+    "total_latency_ms": 582.67,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.21,
+        "psnr_db": 34.67,
+        "encode_latency_ms": 37.98,
+        "decode_latency_ms": 68.27,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.85,
+        "snr_db": -2.56,
+        "psnr_db": 6.91,
+        "encode_latency_ms": 38.11,
+        "decode_latency_ms": 140.06,
+        "original_bytes": 16488,
+        "compressed_bytes": 1863
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.061,
+        "snr_db": 30.11,
+        "psnr_db": 39.57,
+        "encode_latency_ms": 36.41,
+        "decode_latency_ms": 142.06,
+        "original_bytes": 16488,
+        "compressed_bytes": 2335
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.903,
+        "snr_db": 33.76,
+        "psnr_db": 43.22,
+        "encode_latency_ms": 42.23,
+        "decode_latency_ms": 75.26,
+        "original_bytes": 16488,
+        "compressed_bytes": 5680
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161839.0988157,
+    "chunk_samples": 4122,
+    "total_latency_ms": 597.27,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.23,
+        "psnr_db": 34.68,
+        "encode_latency_ms": 40.62,
+        "decode_latency_ms": 69.24,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.879,
+        "snr_db": -2.64,
+        "psnr_db": 6.82,
+        "encode_latency_ms": 41.02,
+        "decode_latency_ms": 142.73,
+        "original_bytes": 16488,
+        "compressed_bytes": 1857
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.908,
+        "snr_db": 28.78,
+        "psnr_db": 38.24,
+        "encode_latency_ms": 38.76,
+        "decode_latency_ms": 147.45,
+        "original_bytes": 16488,
+        "compressed_bytes": 2085
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.901,
+        "snr_db": 33.98,
+        "psnr_db": 43.44,
+        "encode_latency_ms": 41.34,
+        "decode_latency_ms": 73.62,
+        "original_bytes": 16488,
+        "compressed_bytes": 5684
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161839.8022182,
+    "chunk_samples": 4122,
+    "total_latency_ms": 608.44,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.67,
+        "psnr_db": 34.14,
+        "encode_latency_ms": 41.37,
+        "decode_latency_ms": 72.31,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.591,
+        "snr_db": -2.46,
+        "psnr_db": 7.01,
+        "encode_latency_ms": 40.89,
+        "decode_latency_ms": 148.04,
+        "original_bytes": 16488,
+        "compressed_bytes": 2172
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.508,
+        "snr_db": 28.42,
+        "psnr_db": 37.89,
+        "encode_latency_ms": 39.05,
+        "decode_latency_ms": 146.95,
+        "original_bytes": 16488,
+        "compressed_bytes": 2196
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.915,
+        "snr_db": 33.59,
+        "psnr_db": 43.05,
+        "encode_latency_ms": 41.8,
+        "decode_latency_ms": 75.31,
+        "original_bytes": 16488,
+        "compressed_bytes": 5656
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161840.5111337,
+    "chunk_samples": 4122,
+    "total_latency_ms": 614.35,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.99,
+        "psnr_db": 34.56,
+        "encode_latency_ms": 39.86,
+        "decode_latency_ms": 78.91,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.546,
+        "snr_db": -2.24,
+        "psnr_db": 7.33,
+        "encode_latency_ms": 47.06,
+        "decode_latency_ms": 155.86,
+        "original_bytes": 16488,
+        "compressed_bytes": 2185
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.916,
+        "snr_db": 30.11,
+        "psnr_db": 39.68,
+        "encode_latency_ms": 37.01,
+        "decode_latency_ms": 140.58,
+        "original_bytes": 16488,
+        "compressed_bytes": 2384
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.905,
+        "snr_db": 33.73,
+        "psnr_db": 43.29,
+        "encode_latency_ms": 39.28,
+        "decode_latency_ms": 73.54,
+        "original_bytes": 16488,
+        "compressed_bytes": 5676
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161841.1893017,
+    "chunk_samples": 4122,
+    "total_latency_ms": 584.97,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 25.09,
+        "psnr_db": 34.62,
+        "encode_latency_ms": 38.22,
+        "decode_latency_ms": 72.76,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.942,
+        "snr_db": -2.25,
+        "psnr_db": 7.28,
+        "encode_latency_ms": 38.92,
+        "decode_latency_ms": 145.26,
+        "original_bytes": 16488,
+        "compressed_bytes": 2076
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.098,
+        "snr_db": 28.75,
+        "psnr_db": 38.28,
+        "encode_latency_ms": 37.52,
+        "decode_latency_ms": 139.89,
+        "original_bytes": 16488,
+        "compressed_bytes": 2323
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.912,
+        "snr_db": 34.01,
+        "psnr_db": 43.55,
+        "encode_latency_ms": 40.17,
+        "decode_latency_ms": 69.95,
+        "original_bytes": 16488,
+        "compressed_bytes": 5663
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161841.874125,
+    "chunk_samples": 4122,
+    "total_latency_ms": 589.66,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.463,
+        "snr_db": 24.76,
+        "psnr_db": 34.27,
+        "encode_latency_ms": 39.26,
+        "decode_latency_ms": 77.3,
+        "original_bytes": 16488,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.626,
+        "snr_db": -2.43,
+        "psnr_db": 7.08,
+        "encode_latency_ms": 41.21,
+        "decode_latency_ms": 141.81,
+        "original_bytes": 16488,
+        "compressed_bytes": 2162
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.885,
+        "snr_db": 29.14,
+        "psnr_db": 38.65,
+        "encode_latency_ms": 37.35,
+        "decode_latency_ms": 140.8,
+        "original_bytes": 16488,
+        "compressed_bytes": 2091
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.911,
+        "snr_db": 33.88,
+        "psnr_db": 43.39,
+        "encode_latency_ms": 38.93,
+        "decode_latency_ms": 70.83,
+        "original_bytes": 16488,
+        "compressed_bytes": 5665
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161842.558877,
+    "chunk_samples": 4121,
+    "total_latency_ms": 588.2,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.89,
+        "psnr_db": 34.35,
+        "encode_latency_ms": 40.48,
+        "decode_latency_ms": 74.76,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.968,
+        "snr_db": -2.53,
+        "psnr_db": 6.93,
+        "encode_latency_ms": 41.16,
+        "decode_latency_ms": 141.75,
+        "original_bytes": 16484,
+        "compressed_bytes": 1838
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.857,
+        "snr_db": 29.05,
+        "psnr_db": 38.51,
+        "encode_latency_ms": 36.78,
+        "decode_latency_ms": 138.96,
+        "original_bytes": 16484,
+        "compressed_bytes": 2098
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.898,
+        "snr_db": 33.7,
+        "psnr_db": 43.16,
+        "encode_latency_ms": 40.17,
+        "decode_latency_ms": 71.99,
+        "original_bytes": 16484,
+        "compressed_bytes": 5688
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161843.3143227,
+    "chunk_samples": 4121,
+    "total_latency_ms": 659.06,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.41,
+        "psnr_db": 34.87,
+        "encode_latency_ms": 41.95,
+        "decode_latency_ms": 77.87,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.954,
+        "snr_db": -2.37,
+        "psnr_db": 7.09,
+        "encode_latency_ms": 40.6,
+        "decode_latency_ms": 150.52,
+        "original_bytes": 16484,
+        "compressed_bytes": 1841
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.812,
+        "snr_db": 28.97,
+        "psnr_db": 38.42,
+        "encode_latency_ms": 37.33,
+        "decode_latency_ms": 144.71,
+        "original_bytes": 16484,
+        "compressed_bytes": 2110
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.908,
+        "snr_db": 33.57,
+        "psnr_db": 43.02,
+        "encode_latency_ms": 87.33,
+        "decode_latency_ms": 76.54,
+        "original_bytes": 16484,
+        "compressed_bytes": 5669
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161844.0211663,
+    "chunk_samples": 4121,
+    "total_latency_ms": 612.14,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.78,
+        "psnr_db": 34.27,
+        "encode_latency_ms": 38.55,
+        "decode_latency_ms": 78.52,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.589,
+        "snr_db": -2.41,
+        "psnr_db": 7.09,
+        "encode_latency_ms": 42.47,
+        "decode_latency_ms": 151.64,
+        "original_bytes": 16484,
+        "compressed_bytes": 2172
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.876,
+        "snr_db": 28.88,
+        "psnr_db": 38.38,
+        "encode_latency_ms": 36.68,
+        "decode_latency_ms": 143.94,
+        "original_bytes": 16484,
+        "compressed_bytes": 2093
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.911,
+        "snr_db": 33.78,
+        "psnr_db": 43.27,
+        "encode_latency_ms": 42.7,
+        "decode_latency_ms": 74.97,
+        "original_bytes": 16484,
+        "compressed_bytes": 5663
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161844.7266195,
+    "chunk_samples": 4121,
+    "total_latency_ms": 612.42,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.07,
+        "psnr_db": 34.59,
+        "encode_latency_ms": 37.62,
+        "decode_latency_ms": 83.0,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.181,
+        "snr_db": -2.27,
+        "psnr_db": 7.25,
+        "encode_latency_ms": 45.11,
+        "decode_latency_ms": 146.46,
+        "original_bytes": 16484,
+        "compressed_bytes": 2015
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.575,
+        "snr_db": 30.13,
+        "psnr_db": 39.65,
+        "encode_latency_ms": 39.7,
+        "decode_latency_ms": 139.83,
+        "original_bytes": 16484,
+        "compressed_bytes": 2176
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.91,
+        "snr_db": 33.62,
+        "psnr_db": 43.15,
+        "encode_latency_ms": 42.36,
+        "decode_latency_ms": 75.94,
+        "original_bytes": 16484,
+        "compressed_bytes": 5664
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161845.4236567,
+    "chunk_samples": 4121,
+    "total_latency_ms": 600.01,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.16,
+        "psnr_db": 34.73,
+        "encode_latency_ms": 39.83,
+        "decode_latency_ms": 82.3,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.724,
+        "snr_db": -2.25,
+        "psnr_db": 7.32,
+        "encode_latency_ms": 44.6,
+        "decode_latency_ms": 140.98,
+        "original_bytes": 16484,
+        "compressed_bytes": 2134
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.596,
+        "snr_db": 28.69,
+        "psnr_db": 38.25,
+        "encode_latency_ms": 36.75,
+        "decode_latency_ms": 138.56,
+        "original_bytes": 16484,
+        "compressed_bytes": 2170
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.91,
+        "snr_db": 33.86,
+        "psnr_db": 43.42,
+        "encode_latency_ms": 38.73,
+        "decode_latency_ms": 75.8,
+        "original_bytes": 16484,
+        "compressed_bytes": 5664
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161846.1370716,
+    "chunk_samples": 4121,
+    "total_latency_ms": 617.81,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.19,
+        "psnr_db": 34.65,
+        "encode_latency_ms": 42.2,
+        "decode_latency_ms": 77.7,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.915,
+        "snr_db": -2.48,
+        "psnr_db": 6.98,
+        "encode_latency_ms": 43.04,
+        "decode_latency_ms": 146.67,
+        "original_bytes": 16484,
+        "compressed_bytes": 1849
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.846,
+        "snr_db": 28.45,
+        "psnr_db": 37.91,
+        "encode_latency_ms": 40.64,
+        "decode_latency_ms": 146.91,
+        "original_bytes": 16484,
+        "compressed_bytes": 2101
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.896,
+        "snr_db": 34.13,
+        "psnr_db": 43.6,
+        "encode_latency_ms": 41.67,
+        "decode_latency_ms": 76.62,
+        "original_bytes": 16484,
+        "compressed_bytes": 5692
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161846.8313882,
+    "chunk_samples": 4121,
+    "total_latency_ms": 597.79,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.98,
+        "psnr_db": 34.43,
+        "encode_latency_ms": 44.05,
+        "decode_latency_ms": 73.52,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.886,
+        "snr_db": -2.58,
+        "psnr_db": 6.87,
+        "encode_latency_ms": 39.82,
+        "decode_latency_ms": 143.85,
+        "original_bytes": 16484,
+        "compressed_bytes": 1855
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.017,
+        "snr_db": 30.06,
+        "psnr_db": 39.51,
+        "encode_latency_ms": 35.96,
+        "decode_latency_ms": 145.94,
+        "original_bytes": 16484,
+        "compressed_bytes": 2349
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.917,
+        "snr_db": 33.62,
+        "psnr_db": 43.07,
+        "encode_latency_ms": 39.26,
+        "decode_latency_ms": 73.17,
+        "original_bytes": 16484,
+        "compressed_bytes": 5651
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161847.5072083,
+    "chunk_samples": 4121,
+    "total_latency_ms": 583.4,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.16,
+        "psnr_db": 34.62,
+        "encode_latency_ms": 39.08,
+        "decode_latency_ms": 71.31,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.497,
+        "snr_db": -2.33,
+        "psnr_db": 7.13,
+        "encode_latency_ms": 40.39,
+        "decode_latency_ms": 140.73,
+        "original_bytes": 16484,
+        "compressed_bytes": 1940
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.041,
+        "snr_db": 30.04,
+        "psnr_db": 39.5,
+        "encode_latency_ms": 36.55,
+        "decode_latency_ms": 139.69,
+        "original_bytes": 16484,
+        "compressed_bytes": 2341
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.922,
+        "snr_db": 33.57,
+        "psnr_db": 43.03,
+        "encode_latency_ms": 40.78,
+        "decode_latency_ms": 72.22,
+        "original_bytes": 16484,
+        "compressed_bytes": 5642
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161848.1844842,
+    "chunk_samples": 4121,
+    "total_latency_ms": 579.8,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.0,
+        "psnr_db": 34.55,
+        "encode_latency_ms": 39.63,
+        "decode_latency_ms": 72.06,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.703,
+        "snr_db": -2.32,
+        "psnr_db": 7.23,
+        "encode_latency_ms": 39.0,
+        "decode_latency_ms": 137.82,
+        "original_bytes": 16484,
+        "compressed_bytes": 2140
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.614,
+        "snr_db": 29.58,
+        "psnr_db": 39.13,
+        "encode_latency_ms": 37.7,
+        "decode_latency_ms": 139.71,
+        "original_bytes": 16484,
+        "compressed_bytes": 2165
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.828,
+        "snr_db": 34.12,
+        "psnr_db": 43.67,
+        "encode_latency_ms": 39.57,
+        "decode_latency_ms": 72.18,
+        "original_bytes": 16484,
+        "compressed_bytes": 5829
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161848.8565075,
+    "chunk_samples": 4121,
+    "total_latency_ms": 578.4,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.85,
+        "psnr_db": 34.33,
+        "encode_latency_ms": 38.34,
+        "decode_latency_ms": 68.7,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.796,
+        "snr_db": -2.31,
+        "psnr_db": 7.17,
+        "encode_latency_ms": 40.11,
+        "decode_latency_ms": 141.05,
+        "original_bytes": 16484,
+        "compressed_bytes": 1874
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.281,
+        "snr_db": 29.1,
+        "psnr_db": 38.59,
+        "encode_latency_ms": 38.94,
+        "decode_latency_ms": 138.0,
+        "original_bytes": 16484,
+        "compressed_bytes": 2264
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.909,
+        "snr_db": 33.73,
+        "psnr_db": 43.22,
+        "encode_latency_ms": 39.5,
+        "decode_latency_ms": 71.58,
+        "original_bytes": 16484,
+        "compressed_bytes": 5667
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161849.5223598,
+    "chunk_samples": 4121,
+    "total_latency_ms": 572.1,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.96,
+        "psnr_db": 34.5,
+        "encode_latency_ms": 38.8,
+        "decode_latency_ms": 70.61,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.881,
+        "snr_db": -2.34,
+        "psnr_db": 7.19,
+        "encode_latency_ms": 39.51,
+        "decode_latency_ms": 137.49,
+        "original_bytes": 16484,
+        "compressed_bytes": 1856
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.861,
+        "snr_db": 28.62,
+        "psnr_db": 38.15,
+        "encode_latency_ms": 36.07,
+        "decode_latency_ms": 135.72,
+        "original_bytes": 16484,
+        "compressed_bytes": 2097
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.908,
+        "snr_db": 33.7,
+        "psnr_db": 43.24,
+        "encode_latency_ms": 38.43,
+        "decode_latency_ms": 72.89,
+        "original_bytes": 16484,
+        "compressed_bytes": 5669
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161850.2166595,
+    "chunk_samples": 4121,
+    "total_latency_ms": 601.76,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.43,
+        "psnr_db": 33.9,
+        "encode_latency_ms": 42.49,
+        "decode_latency_ms": 72.16,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.905,
+        "snr_db": -2.54,
+        "psnr_db": 6.92,
+        "encode_latency_ms": 43.15,
+        "decode_latency_ms": 142.18,
+        "original_bytes": 16484,
+        "compressed_bytes": 1851
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.558,
+        "snr_db": 30.16,
+        "psnr_db": 39.62,
+        "encode_latency_ms": 38.45,
+        "decode_latency_ms": 142.95,
+        "original_bytes": 16484,
+        "compressed_bytes": 2181
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.909,
+        "snr_db": 33.63,
+        "psnr_db": 43.09,
+        "encode_latency_ms": 40.02,
+        "decode_latency_ms": 77.59,
+        "original_bytes": 16484,
+        "compressed_bytes": 5666
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161850.8981311,
+    "chunk_samples": 4121,
+    "total_latency_ms": 584.68,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.68,
+        "psnr_db": 35.13,
+        "encode_latency_ms": 41.69,
+        "decode_latency_ms": 70.72,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.862,
+        "snr_db": -2.56,
+        "psnr_db": 6.9,
+        "encode_latency_ms": 40.82,
+        "decode_latency_ms": 141.73,
+        "original_bytes": 16484,
+        "compressed_bytes": 1860
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.271,
+        "snr_db": 30.24,
+        "psnr_db": 39.69,
+        "encode_latency_ms": 36.79,
+        "decode_latency_ms": 141.64,
+        "original_bytes": 16484,
+        "compressed_bytes": 2267
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.907,
+        "snr_db": 33.7,
+        "psnr_db": 43.15,
+        "encode_latency_ms": 38.91,
+        "decode_latency_ms": 70.14,
+        "original_bytes": 16484,
+        "compressed_bytes": 5671
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161851.5789692,
+    "chunk_samples": 4121,
+    "total_latency_ms": 585.48,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.85,
+        "psnr_db": 34.33,
+        "encode_latency_ms": 40.34,
+        "decode_latency_ms": 68.14,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.685,
+        "snr_db": -2.42,
+        "psnr_db": 7.06,
+        "encode_latency_ms": 41.15,
+        "decode_latency_ms": 142.13,
+        "original_bytes": 16484,
+        "compressed_bytes": 2145
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.764,
+        "snr_db": 28.89,
+        "psnr_db": 38.37,
+        "encode_latency_ms": 42.64,
+        "decode_latency_ms": 138.01,
+        "original_bytes": 16484,
+        "compressed_bytes": 2123
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.897,
+        "snr_db": 33.91,
+        "psnr_db": 43.39,
+        "encode_latency_ms": 39.94,
+        "decode_latency_ms": 70.75,
+        "original_bytes": 16484,
+        "compressed_bytes": 5691
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161852.2687392,
+    "chunk_samples": 4121,
+    "total_latency_ms": 596.22,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.87,
+        "psnr_db": 34.42,
+        "encode_latency_ms": 38.79,
+        "decode_latency_ms": 72.22,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.964,
+        "snr_db": -2.31,
+        "psnr_db": 7.24,
+        "encode_latency_ms": 42.49,
+        "decode_latency_ms": 152.09,
+        "original_bytes": 16484,
+        "compressed_bytes": 1839
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.31,
+        "snr_db": 29.35,
+        "psnr_db": 38.91,
+        "encode_latency_ms": 39.28,
+        "decode_latency_ms": 140.99,
+        "original_bytes": 16484,
+        "compressed_bytes": 2255
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.906,
+        "snr_db": 33.39,
+        "psnr_db": 42.95,
+        "encode_latency_ms": 38.55,
+        "decode_latency_ms": 69.2,
+        "original_bytes": 16484,
+        "compressed_bytes": 5672
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161852.9385414,
+    "chunk_samples": 4121,
+    "total_latency_ms": 575.74,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.83,
+        "psnr_db": 34.38,
+        "encode_latency_ms": 37.27,
+        "decode_latency_ms": 69.85,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.496,
+        "snr_db": -2.29,
+        "psnr_db": 7.26,
+        "encode_latency_ms": 39.29,
+        "decode_latency_ms": 141.47,
+        "original_bytes": 16484,
+        "compressed_bytes": 2199
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.06,
+        "snr_db": 28.51,
+        "psnr_db": 38.05,
+        "encode_latency_ms": 37.23,
+        "decode_latency_ms": 136.9,
+        "original_bytes": 16484,
+        "compressed_bytes": 2335
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.91,
+        "snr_db": 33.78,
+        "psnr_db": 43.33,
+        "encode_latency_ms": 39.48,
+        "decode_latency_ms": 72.03,
+        "original_bytes": 16484,
+        "compressed_bytes": 5664
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161853.6217103,
+    "chunk_samples": 4121,
+    "total_latency_ms": 587.55,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.08,
+        "psnr_db": 34.57,
+        "encode_latency_ms": 39.71,
+        "decode_latency_ms": 70.92,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.843,
+        "snr_db": -2.52,
+        "psnr_db": 6.97,
+        "encode_latency_ms": 45.73,
+        "decode_latency_ms": 142.11,
+        "original_bytes": 16484,
+        "compressed_bytes": 1864
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.593,
+        "snr_db": 29.78,
+        "psnr_db": 39.27,
+        "encode_latency_ms": 36.47,
+        "decode_latency_ms": 138.13,
+        "original_bytes": 16484,
+        "compressed_bytes": 2171
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.923,
+        "snr_db": 33.81,
+        "psnr_db": 43.3,
+        "encode_latency_ms": 41.67,
+        "decode_latency_ms": 70.72,
+        "original_bytes": 16484,
+        "compressed_bytes": 5640
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161854.335438,
+    "chunk_samples": 4121,
+    "total_latency_ms": 618.01,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.64,
+        "psnr_db": 34.1,
+        "encode_latency_ms": 39.7,
+        "decode_latency_ms": 74.41,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.915,
+        "snr_db": -2.52,
+        "psnr_db": 6.94,
+        "encode_latency_ms": 40.63,
+        "decode_latency_ms": 151.98,
+        "original_bytes": 16484,
+        "compressed_bytes": 1849
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.124,
+        "snr_db": 29.2,
+        "psnr_db": 38.66,
+        "encode_latency_ms": 39.55,
+        "decode_latency_ms": 145.78,
+        "original_bytes": 16484,
+        "compressed_bytes": 2029
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.903,
+        "snr_db": 33.89,
+        "psnr_db": 43.36,
+        "encode_latency_ms": 41.77,
+        "decode_latency_ms": 81.48,
+        "original_bytes": 16484,
+        "compressed_bytes": 5679
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161855.023393,
+    "chunk_samples": 4121,
+    "total_latency_ms": 594.25,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.15,
+        "psnr_db": 34.62,
+        "encode_latency_ms": 44.45,
+        "decode_latency_ms": 78.38,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.631,
+        "snr_db": -2.53,
+        "psnr_db": 6.94,
+        "encode_latency_ms": 38.22,
+        "decode_latency_ms": 143.71,
+        "original_bytes": 16484,
+        "compressed_bytes": 2160
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.486,
+        "snr_db": 29.98,
+        "psnr_db": 39.45,
+        "encode_latency_ms": 38.27,
+        "decode_latency_ms": 136.14,
+        "original_bytes": 16484,
+        "compressed_bytes": 2202
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.91,
+        "snr_db": 33.58,
+        "psnr_db": 43.05,
+        "encode_latency_ms": 39.18,
+        "decode_latency_ms": 73.48,
+        "original_bytes": 16484,
+        "compressed_bytes": 5664
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161855.7012908,
+    "chunk_samples": 4121,
+    "total_latency_ms": 583.97,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.81,
+        "psnr_db": 34.33,
+        "encode_latency_ms": 39.68,
+        "decode_latency_ms": 72.54,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.768,
+        "snr_db": -2.3,
+        "psnr_db": 7.22,
+        "encode_latency_ms": 38.96,
+        "decode_latency_ms": 143.49,
+        "original_bytes": 16484,
+        "compressed_bytes": 1880
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.233,
+        "snr_db": 29.94,
+        "psnr_db": 39.47,
+        "encode_latency_ms": 37.67,
+        "decode_latency_ms": 137.69,
+        "original_bytes": 16484,
+        "compressed_bytes": 2279
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.912,
+        "snr_db": 33.41,
+        "psnr_db": 42.94,
+        "encode_latency_ms": 40.72,
+        "decode_latency_ms": 70.76,
+        "original_bytes": 16484,
+        "compressed_bytes": 5661
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161856.379762,
+    "chunk_samples": 4121,
+    "total_latency_ms": 582.26,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.7,
+        "psnr_db": 34.22,
+        "encode_latency_ms": 39.45,
+        "decode_latency_ms": 69.22,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.362,
+        "snr_db": -2.34,
+        "psnr_db": 7.18,
+        "encode_latency_ms": 40.12,
+        "decode_latency_ms": 144.03,
+        "original_bytes": 16484,
+        "compressed_bytes": 2239
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.316,
+        "snr_db": 28.15,
+        "psnr_db": 37.67,
+        "encode_latency_ms": 37.07,
+        "decode_latency_ms": 138.13,
+        "original_bytes": 16484,
+        "compressed_bytes": 2253
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.926,
+        "snr_db": 33.7,
+        "psnr_db": 43.23,
+        "encode_latency_ms": 40.31,
+        "decode_latency_ms": 71.43,
+        "original_bytes": 16484,
+        "compressed_bytes": 5634
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161857.0644412,
+    "chunk_samples": 4121,
+    "total_latency_ms": 589.77,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.97,
+        "psnr_db": 34.51,
+        "encode_latency_ms": 38.19,
+        "decode_latency_ms": 70.63,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.973,
+        "snr_db": -2.4,
+        "psnr_db": 7.15,
+        "encode_latency_ms": 40.34,
+        "decode_latency_ms": 139.81,
+        "original_bytes": 16484,
+        "compressed_bytes": 1837
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.339,
+        "snr_db": 29.31,
+        "psnr_db": 38.85,
+        "encode_latency_ms": 38.49,
+        "decode_latency_ms": 145.84,
+        "original_bytes": 16484,
+        "compressed_bytes": 2246
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.913,
+        "snr_db": 33.77,
+        "psnr_db": 43.31,
+        "encode_latency_ms": 40.48,
+        "decode_latency_ms": 73.28,
+        "original_bytes": 16484,
+        "compressed_bytes": 5658
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161857.7660556,
+    "chunk_samples": 4121,
+    "total_latency_ms": 609.24,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.88,
+        "psnr_db": 34.34,
+        "encode_latency_ms": 41.86,
+        "decode_latency_ms": 77.77,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.646,
+        "snr_db": -2.62,
+        "psnr_db": 6.85,
+        "encode_latency_ms": 42.39,
+        "decode_latency_ms": 146.71,
+        "original_bytes": 16484,
+        "compressed_bytes": 2156
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.281,
+        "snr_db": 30.04,
+        "psnr_db": 39.51,
+        "encode_latency_ms": 39.19,
+        "decode_latency_ms": 139.6,
+        "original_bytes": 16484,
+        "compressed_bytes": 2264
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.913,
+        "snr_db": 33.64,
+        "psnr_db": 43.11,
+        "encode_latency_ms": 40.16,
+        "decode_latency_ms": 78.51,
+        "original_bytes": 16484,
+        "compressed_bytes": 5659
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161858.459882,
+    "chunk_samples": 4121,
+    "total_latency_ms": 601.64,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.04,
+        "psnr_db": 34.49,
+        "encode_latency_ms": 41.61,
+        "decode_latency_ms": 73.37,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.858,
+        "snr_db": -2.59,
+        "psnr_db": 6.87,
+        "encode_latency_ms": 40.81,
+        "decode_latency_ms": 141.42,
+        "original_bytes": 16484,
+        "compressed_bytes": 1861
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.16,
+        "snr_db": 29.04,
+        "psnr_db": 38.5,
+        "encode_latency_ms": 40.74,
+        "decode_latency_ms": 148.25,
+        "original_bytes": 16484,
+        "compressed_bytes": 2020
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.906,
+        "snr_db": 33.7,
+        "psnr_db": 43.16,
+        "encode_latency_ms": 39.21,
+        "decode_latency_ms": 73.73,
+        "original_bytes": 16484,
+        "compressed_bytes": 5673
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161859.1432958,
+    "chunk_samples": 4121,
+    "total_latency_ms": 589.43,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.26,
+        "psnr_db": 34.74,
+        "encode_latency_ms": 42.2,
+        "decode_latency_ms": 70.32,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.838,
+        "snr_db": -2.41,
+        "psnr_db": 7.08,
+        "encode_latency_ms": 42.18,
+        "decode_latency_ms": 140.16,
+        "original_bytes": 16484,
+        "compressed_bytes": 2103
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.16,
+        "snr_db": 28.19,
+        "psnr_db": 37.68,
+        "encode_latency_ms": 36.62,
+        "decode_latency_ms": 140.27,
+        "original_bytes": 16484,
+        "compressed_bytes": 2020
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.904,
+        "snr_db": 33.76,
+        "psnr_db": 43.24,
+        "encode_latency_ms": 40.65,
+        "decode_latency_ms": 74.45,
+        "original_bytes": 16484,
+        "compressed_bytes": 5677
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161859.843713,
+    "chunk_samples": 4121,
+    "total_latency_ms": 605.9,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.66,
+        "psnr_db": 34.21,
+        "encode_latency_ms": 39.17,
+        "decode_latency_ms": 71.13,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.586,
+        "snr_db": -2.27,
+        "psnr_db": 7.28,
+        "encode_latency_ms": 39.85,
+        "decode_latency_ms": 151.34,
+        "original_bytes": 16484,
+        "compressed_bytes": 2173
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.32,
+        "snr_db": 29.47,
+        "psnr_db": 39.02,
+        "encode_latency_ms": 38.61,
+        "decode_latency_ms": 145.68,
+        "original_bytes": 16484,
+        "compressed_bytes": 2252
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.909,
+        "snr_db": 33.84,
+        "psnr_db": 43.39,
+        "encode_latency_ms": 43.97,
+        "decode_latency_ms": 73.93,
+        "original_bytes": 16484,
+        "compressed_bytes": 5667
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161860.5637636,
+    "chunk_samples": 4121,
+    "total_latency_ms": 627.21,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.15,
+        "psnr_db": 34.68,
+        "encode_latency_ms": 42.53,
+        "decode_latency_ms": 74.76,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.582,
+        "snr_db": -2.34,
+        "psnr_db": 7.2,
+        "encode_latency_ms": 44.71,
+        "decode_latency_ms": 155.59,
+        "original_bytes": 16484,
+        "compressed_bytes": 2174
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.189,
+        "snr_db": 27.86,
+        "psnr_db": 37.4,
+        "encode_latency_ms": 40.92,
+        "decode_latency_ms": 146.15,
+        "original_bytes": 16484,
+        "compressed_bytes": 2013
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.901,
+        "snr_db": 33.96,
+        "psnr_db": 43.5,
+        "encode_latency_ms": 41.91,
+        "decode_latency_ms": 78.24,
+        "original_bytes": 16484,
+        "compressed_bytes": 5683
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161862.4655561,
+    "chunk_samples": 4121,
+    "total_latency_ms": 1809.05,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.14,
+        "psnr_db": 34.63,
+        "encode_latency_ms": 42.76,
+        "decode_latency_ms": 75.56,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 9.072,
+        "snr_db": -2.59,
+        "psnr_db": 6.9,
+        "encode_latency_ms": 38.29,
+        "decode_latency_ms": 139.9,
+        "original_bytes": 16484,
+        "compressed_bytes": 1817
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.876,
+        "snr_db": 29.3,
+        "psnr_db": 38.79,
+        "encode_latency_ms": 894.45,
+        "decode_latency_ms": 147.65,
+        "original_bytes": 16484,
+        "compressed_bytes": 2093
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.856,
+        "snr_db": 34.24,
+        "psnr_db": 43.74,
+        "encode_latency_ms": 40.46,
+        "decode_latency_ms": 427.78,
+        "original_bytes": 16484,
+        "compressed_bytes": 5771
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161863.1417994,
+    "chunk_samples": 4121,
+    "total_latency_ms": 582.98,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.59,
+        "psnr_db": 34.05,
+        "encode_latency_ms": 37.82,
+        "decode_latency_ms": 72.95,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.901,
+        "snr_db": -2.63,
+        "psnr_db": 6.83,
+        "encode_latency_ms": 38.1,
+        "decode_latency_ms": 142.87,
+        "original_bytes": 16484,
+        "compressed_bytes": 1852
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.838,
+        "snr_db": 28.49,
+        "psnr_db": 37.95,
+        "encode_latency_ms": 37.59,
+        "decode_latency_ms": 138.33,
+        "original_bytes": 16484,
+        "compressed_bytes": 2103
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.911,
+        "snr_db": 33.32,
+        "psnr_db": 42.77,
+        "encode_latency_ms": 41.94,
+        "decode_latency_ms": 71.06,
+        "original_bytes": 16484,
+        "compressed_bytes": 5662
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161863.8239737,
+    "chunk_samples": 4121,
+    "total_latency_ms": 588.84,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.98,
+        "psnr_db": 34.43,
+        "encode_latency_ms": 39.59,
+        "decode_latency_ms": 71.65,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 9.057,
+        "snr_db": -2.58,
+        "psnr_db": 6.87,
+        "encode_latency_ms": 39.77,
+        "decode_latency_ms": 142.27,
+        "original_bytes": 16484,
+        "compressed_bytes": 1820
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.23,
+        "snr_db": 29.41,
+        "psnr_db": 38.86,
+        "encode_latency_ms": 37.34,
+        "decode_latency_ms": 145.88,
+        "original_bytes": 16484,
+        "compressed_bytes": 2280
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.902,
+        "snr_db": 33.48,
+        "psnr_db": 42.93,
+        "encode_latency_ms": 38.73,
+        "decode_latency_ms": 71.06,
+        "original_bytes": 16484,
+        "compressed_bytes": 5680
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161864.5174243,
+    "chunk_samples": 4121,
+    "total_latency_ms": 599.55,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.28,
+        "psnr_db": 34.8,
+        "encode_latency_ms": 40.53,
+        "decode_latency_ms": 70.54,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.82,
+        "snr_db": -2.32,
+        "psnr_db": 7.19,
+        "encode_latency_ms": 41.94,
+        "decode_latency_ms": 139.57,
+        "original_bytes": 16484,
+        "compressed_bytes": 2108
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.124,
+        "snr_db": 28.89,
+        "psnr_db": 38.41,
+        "encode_latency_ms": 48.54,
+        "decode_latency_ms": 141.91,
+        "original_bytes": 16484,
+        "compressed_bytes": 2029
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.906,
+        "snr_db": 33.85,
+        "psnr_db": 43.37,
+        "encode_latency_ms": 42.57,
+        "decode_latency_ms": 71.42,
+        "original_bytes": 16484,
+        "compressed_bytes": 5672
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161865.2469687,
+    "chunk_samples": 4121,
+    "total_latency_ms": 633.26,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.0,
+        "psnr_db": 34.51,
+        "encode_latency_ms": 40.6,
+        "decode_latency_ms": 70.54,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.703,
+        "snr_db": -2.26,
+        "psnr_db": 7.24,
+        "encode_latency_ms": 39.64,
+        "decode_latency_ms": 164.27,
+        "original_bytes": 16484,
+        "compressed_bytes": 2140
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.333,
+        "snr_db": 29.8,
+        "psnr_db": 39.31,
+        "encode_latency_ms": 44.62,
+        "decode_latency_ms": 158.86,
+        "original_bytes": 16484,
+        "compressed_bytes": 2248
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.911,
+        "snr_db": 33.96,
+        "psnr_db": 43.46,
+        "encode_latency_ms": 39.49,
+        "decode_latency_ms": 72.35,
+        "original_bytes": 16484,
+        "compressed_bytes": 5663
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161866.0016873,
+    "chunk_samples": 4121,
+    "total_latency_ms": 661.52,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.18,
+        "psnr_db": 34.75,
+        "encode_latency_ms": 43.35,
+        "decode_latency_ms": 82.04,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.678,
+        "snr_db": -2.33,
+        "psnr_db": 7.24,
+        "encode_latency_ms": 45.02,
+        "decode_latency_ms": 165.2,
+        "original_bytes": 16484,
+        "compressed_bytes": 2147
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.565,
+        "snr_db": 29.99,
+        "psnr_db": 39.56,
+        "encode_latency_ms": 46.17,
+        "decode_latency_ms": 155.05,
+        "original_bytes": 16484,
+        "compressed_bytes": 2179
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.922,
+        "snr_db": 33.5,
+        "psnr_db": 43.06,
+        "encode_latency_ms": 43.76,
+        "decode_latency_ms": 77.87,
+        "original_bytes": 16484,
+        "compressed_bytes": 5641
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161866.7398076,
+    "chunk_samples": 4121,
+    "total_latency_ms": 642.8,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.84,
+        "psnr_db": 34.3,
+        "encode_latency_ms": 40.65,
+        "decode_latency_ms": 72.7,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.978,
+        "snr_db": -2.38,
+        "psnr_db": 7.09,
+        "encode_latency_ms": 43.08,
+        "decode_latency_ms": 165.62,
+        "original_bytes": 16484,
+        "compressed_bytes": 1836
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.642,
+        "snr_db": 28.93,
+        "psnr_db": 38.39,
+        "encode_latency_ms": 39.39,
+        "decode_latency_ms": 146.78,
+        "original_bytes": 16484,
+        "compressed_bytes": 2157
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.902,
+        "snr_db": 33.77,
+        "psnr_db": 43.23,
+        "encode_latency_ms": 44.5,
+        "decode_latency_ms": 87.64,
+        "original_bytes": 16484,
+        "compressed_bytes": 5681
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161867.4519122,
+    "chunk_samples": 4121,
+    "total_latency_ms": 619.83,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.99,
+        "psnr_db": 34.43,
+        "encode_latency_ms": 42.3,
+        "decode_latency_ms": 79.71,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.656,
+        "snr_db": -2.66,
+        "psnr_db": 6.79,
+        "encode_latency_ms": 43.19,
+        "decode_latency_ms": 143.65,
+        "original_bytes": 16484,
+        "compressed_bytes": 2153
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.14,
+        "snr_db": 28.72,
+        "psnr_db": 38.16,
+        "encode_latency_ms": 40.02,
+        "decode_latency_ms": 150.95,
+        "original_bytes": 16484,
+        "compressed_bytes": 2025
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.901,
+        "snr_db": 33.8,
+        "psnr_db": 43.24,
+        "encode_latency_ms": 40.19,
+        "decode_latency_ms": 76.76,
+        "original_bytes": 16484,
+        "compressed_bytes": 5682
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161868.1464775,
+    "chunk_samples": 4121,
+    "total_latency_ms": 600.48,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.73,
+        "psnr_db": 34.19,
+        "encode_latency_ms": 40.65,
+        "decode_latency_ms": 75.97,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.621,
+        "snr_db": -2.39,
+        "psnr_db": 7.07,
+        "encode_latency_ms": 40.95,
+        "decode_latency_ms": 149.77,
+        "original_bytes": 16484,
+        "compressed_bytes": 2163
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.144,
+        "snr_db": 28.35,
+        "psnr_db": 37.81,
+        "encode_latency_ms": 40.83,
+        "decode_latency_ms": 137.55,
+        "original_bytes": 16484,
+        "compressed_bytes": 2024
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.908,
+        "snr_db": 33.9,
+        "psnr_db": 43.35,
+        "encode_latency_ms": 40.78,
+        "decode_latency_ms": 71.7,
+        "original_bytes": 16484,
+        "compressed_bytes": 5669
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161868.8252335,
+    "chunk_samples": 4121,
+    "total_latency_ms": 581.53,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.27,
+        "psnr_db": 34.83,
+        "encode_latency_ms": 40.81,
+        "decode_latency_ms": 70.97,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.541,
+        "snr_db": -2.3,
+        "psnr_db": 7.26,
+        "encode_latency_ms": 39.16,
+        "decode_latency_ms": 139.98,
+        "original_bytes": 16484,
+        "compressed_bytes": 2186
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.25,
+        "snr_db": 28.57,
+        "psnr_db": 38.13,
+        "encode_latency_ms": 37.23,
+        "decode_latency_ms": 141.6,
+        "original_bytes": 16484,
+        "compressed_bytes": 1998
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.909,
+        "snr_db": 33.3,
+        "psnr_db": 42.87,
+        "encode_latency_ms": 38.99,
+        "decode_latency_ms": 70.15,
+        "original_bytes": 16484,
+        "compressed_bytes": 5666
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161869.5457065,
+    "chunk_samples": 4121,
+    "total_latency_ms": 626.31,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.11,
+        "psnr_db": 34.63,
+        "encode_latency_ms": 37.15,
+        "decode_latency_ms": 71.2,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.829,
+        "snr_db": -2.32,
+        "psnr_db": 7.19,
+        "encode_latency_ms": 81.51,
+        "decode_latency_ms": 140.84,
+        "original_bytes": 16484,
+        "compressed_bytes": 1867
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.639,
+        "snr_db": 28.85,
+        "psnr_db": 38.37,
+        "encode_latency_ms": 40.79,
+        "decode_latency_ms": 140.28,
+        "original_bytes": 16484,
+        "compressed_bytes": 2158
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.913,
+        "snr_db": 33.58,
+        "psnr_db": 43.1,
+        "encode_latency_ms": 42.23,
+        "decode_latency_ms": 70.15,
+        "original_bytes": 16484,
+        "compressed_bytes": 5659
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161870.2348354,
+    "chunk_samples": 4121,
+    "total_latency_ms": 594.59,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.8,
+        "psnr_db": 34.31,
+        "encode_latency_ms": 41.09,
+        "decode_latency_ms": 72.39,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.524,
+        "snr_db": -2.42,
+        "psnr_db": 7.09,
+        "encode_latency_ms": 44.17,
+        "decode_latency_ms": 138.84,
+        "original_bytes": 16484,
+        "compressed_bytes": 2191
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.307,
+        "snr_db": 30.03,
+        "psnr_db": 39.54,
+        "encode_latency_ms": 36.87,
+        "decode_latency_ms": 144.53,
+        "original_bytes": 16484,
+        "compressed_bytes": 2256
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.912,
+        "snr_db": 33.77,
+        "psnr_db": 43.28,
+        "encode_latency_ms": 41.48,
+        "decode_latency_ms": 72.33,
+        "original_bytes": 16484,
+        "compressed_bytes": 5660
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161870.9413881,
+    "chunk_samples": 4121,
+    "total_latency_ms": 611.89,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.65,
+        "psnr_db": 34.11,
+        "encode_latency_ms": 42.39,
+        "decode_latency_ms": 76.66,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.93,
+        "snr_db": -2.53,
+        "psnr_db": 6.93,
+        "encode_latency_ms": 44.23,
+        "decode_latency_ms": 145.89,
+        "original_bytes": 16484,
+        "compressed_bytes": 1846
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.794,
+        "snr_db": 27.95,
+        "psnr_db": 37.42,
+        "encode_latency_ms": 38.32,
+        "decode_latency_ms": 145.23,
+        "original_bytes": 16484,
+        "compressed_bytes": 2115
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.918,
+        "snr_db": 33.88,
+        "psnr_db": 43.35,
+        "encode_latency_ms": 42.18,
+        "decode_latency_ms": 74.36,
+        "original_bytes": 16484,
+        "compressed_bytes": 5650
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161871.628913,
+    "chunk_samples": 4121,
+    "total_latency_ms": 593.33,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.11,
+        "psnr_db": 34.57,
+        "encode_latency_ms": 39.26,
+        "decode_latency_ms": 70.83,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.939,
+        "snr_db": -2.36,
+        "psnr_db": 7.1,
+        "encode_latency_ms": 45.49,
+        "decode_latency_ms": 145.73,
+        "original_bytes": 16484,
+        "compressed_bytes": 1844
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.801,
+        "snr_db": 28.49,
+        "psnr_db": 37.95,
+        "encode_latency_ms": 37.07,
+        "decode_latency_ms": 140.0,
+        "original_bytes": 16484,
+        "compressed_bytes": 2113
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.906,
+        "snr_db": 34.03,
+        "psnr_db": 43.49,
+        "encode_latency_ms": 39.58,
+        "decode_latency_ms": 73.08,
+        "original_bytes": 16484,
+        "compressed_bytes": 5673
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161872.3192923,
+    "chunk_samples": 4121,
+    "total_latency_ms": 597.22,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.94,
+        "psnr_db": 34.41,
+        "encode_latency_ms": 38.8,
+        "decode_latency_ms": 73.95,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.69,
+        "snr_db": -2.39,
+        "psnr_db": 7.09,
+        "encode_latency_ms": 39.73,
+        "decode_latency_ms": 138.36,
+        "original_bytes": 16484,
+        "compressed_bytes": 1897
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.898,
+        "snr_db": 28.28,
+        "psnr_db": 37.76,
+        "encode_latency_ms": 39.96,
+        "decode_latency_ms": 148.01,
+        "original_bytes": 16484,
+        "compressed_bytes": 2087
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.907,
+        "snr_db": 33.72,
+        "psnr_db": 43.2,
+        "encode_latency_ms": 43.49,
+        "decode_latency_ms": 72.65,
+        "original_bytes": 16484,
+        "compressed_bytes": 5671
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161873.0289042,
+    "chunk_samples": 4121,
+    "total_latency_ms": 615.23,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.1,
+        "psnr_db": 34.64,
+        "encode_latency_ms": 44.34,
+        "decode_latency_ms": 69.67,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.848,
+        "snr_db": -2.27,
+        "psnr_db": 7.27,
+        "encode_latency_ms": 43.87,
+        "decode_latency_ms": 153.65,
+        "original_bytes": 16484,
+        "compressed_bytes": 1863
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.642,
+        "snr_db": 29.27,
+        "psnr_db": 38.81,
+        "encode_latency_ms": 40.69,
+        "decode_latency_ms": 145.77,
+        "original_bytes": 16484,
+        "compressed_bytes": 2157
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.91,
+        "snr_db": 33.26,
+        "psnr_db": 42.81,
+        "encode_latency_ms": 39.14,
+        "decode_latency_ms": 75.75,
+        "original_bytes": 16484,
+        "compressed_bytes": 5664
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161873.7247472,
+    "chunk_samples": 4121,
+    "total_latency_ms": 599.11,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.46,
+        "psnr_db": 35.03,
+        "encode_latency_ms": 41.46,
+        "decode_latency_ms": 72.46,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.872,
+        "snr_db": -2.28,
+        "psnr_db": 7.28,
+        "encode_latency_ms": 41.47,
+        "decode_latency_ms": 139.01,
+        "original_bytes": 16484,
+        "compressed_bytes": 2094
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.422,
+        "snr_db": 27.8,
+        "psnr_db": 37.36,
+        "encode_latency_ms": 37.39,
+        "decode_latency_ms": 139.7,
+        "original_bytes": 16484,
+        "compressed_bytes": 2221
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.906,
+        "snr_db": 33.81,
+        "psnr_db": 43.37,
+        "encode_latency_ms": 40.72,
+        "decode_latency_ms": 84.65,
+        "original_bytes": 16484,
+        "compressed_bytes": 5672
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161874.4224913,
+    "chunk_samples": 4121,
+    "total_latency_ms": 605.51,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.06,
+        "psnr_db": 34.53,
+        "encode_latency_ms": 40.55,
+        "decode_latency_ms": 73.19,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.646,
+        "snr_db": -2.51,
+        "psnr_db": 6.96,
+        "encode_latency_ms": 39.62,
+        "decode_latency_ms": 148.32,
+        "original_bytes": 16484,
+        "compressed_bytes": 2156
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.278,
+        "snr_db": 29.71,
+        "psnr_db": 39.18,
+        "encode_latency_ms": 39.94,
+        "decode_latency_ms": 146.79,
+        "original_bytes": 16484,
+        "compressed_bytes": 2265
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.899,
+        "snr_db": 34.08,
+        "psnr_db": 43.55,
+        "encode_latency_ms": 40.95,
+        "decode_latency_ms": 73.85,
+        "original_bytes": 16484,
+        "compressed_bytes": 5686
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161875.1075811,
+    "chunk_samples": 4121,
+    "total_latency_ms": 591.27,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.82,
+        "psnr_db": 34.28,
+        "encode_latency_ms": 40.34,
+        "decode_latency_ms": 73.41,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.453,
+        "snr_db": -2.61,
+        "psnr_db": 6.85,
+        "encode_latency_ms": 40.42,
+        "decode_latency_ms": 146.74,
+        "original_bytes": 16484,
+        "compressed_bytes": 1950
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.548,
+        "snr_db": 29.45,
+        "psnr_db": 38.91,
+        "encode_latency_ms": 37.67,
+        "decode_latency_ms": 137.33,
+        "original_bytes": 16484,
+        "compressed_bytes": 2184
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.911,
+        "snr_db": 33.49,
+        "psnr_db": 42.95,
+        "encode_latency_ms": 40.37,
+        "decode_latency_ms": 72.74,
+        "original_bytes": 16484,
+        "compressed_bytes": 5662
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161875.813901,
+    "chunk_samples": 4121,
+    "total_latency_ms": 614.0,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.81,
+        "psnr_db": 34.28,
+        "encode_latency_ms": 41.84,
+        "decode_latency_ms": 78.01,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.635,
+        "snr_db": -2.36,
+        "psnr_db": 7.1,
+        "encode_latency_ms": 42.55,
+        "decode_latency_ms": 148.23,
+        "original_bytes": 16484,
+        "compressed_bytes": 2159
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.017,
+        "snr_db": 30.11,
+        "psnr_db": 39.57,
+        "encode_latency_ms": 38.74,
+        "decode_latency_ms": 146.97,
+        "original_bytes": 16484,
+        "compressed_bytes": 2349
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.915,
+        "snr_db": 34.07,
+        "psnr_db": 43.54,
+        "encode_latency_ms": 41.1,
+        "decode_latency_ms": 74.3,
+        "original_bytes": 16484,
+        "compressed_bytes": 5655
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161876.5086706,
+    "chunk_samples": 4121,
+    "total_latency_ms": 599.82,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.33,
+        "psnr_db": 34.88,
+        "encode_latency_ms": 41.31,
+        "decode_latency_ms": 72.17,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.674,
+        "snr_db": -2.3,
+        "psnr_db": 7.25,
+        "encode_latency_ms": 40.8,
+        "decode_latency_ms": 147.92,
+        "original_bytes": 16484,
+        "compressed_bytes": 2148
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.217,
+        "snr_db": 29.04,
+        "psnr_db": 38.59,
+        "encode_latency_ms": 37.43,
+        "decode_latency_ms": 140.05,
+        "original_bytes": 16484,
+        "compressed_bytes": 2284
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.897,
+        "snr_db": 33.95,
+        "psnr_db": 43.5,
+        "encode_latency_ms": 41.29,
+        "decode_latency_ms": 76.51,
+        "original_bytes": 16484,
+        "compressed_bytes": 5690
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161877.228214,
+    "chunk_samples": 4121,
+    "total_latency_ms": 626.6,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.65,
+        "psnr_db": 34.15,
+        "encode_latency_ms": 42.7,
+        "decode_latency_ms": 75.82,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.614,
+        "snr_db": -2.3,
+        "psnr_db": 7.21,
+        "encode_latency_ms": 44.13,
+        "decode_latency_ms": 154.78,
+        "original_bytes": 16484,
+        "compressed_bytes": 2165
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.195,
+        "snr_db": 28.48,
+        "psnr_db": 37.99,
+        "encode_latency_ms": 42.03,
+        "decode_latency_ms": 149.77,
+        "original_bytes": 16484,
+        "compressed_bytes": 2291
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.904,
+        "snr_db": 33.6,
+        "psnr_db": 43.11,
+        "encode_latency_ms": 41.86,
+        "decode_latency_ms": 73.19,
+        "original_bytes": 16484,
+        "compressed_bytes": 5676
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161877.9229116,
+    "chunk_samples": 4121,
+    "total_latency_ms": 602.38,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.4,
+        "psnr_db": 34.94,
+        "encode_latency_ms": 42.24,
+        "decode_latency_ms": 73.32,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.92,
+        "snr_db": -2.46,
+        "psnr_db": 7.08,
+        "encode_latency_ms": 43.17,
+        "decode_latency_ms": 144.61,
+        "original_bytes": 16484,
+        "compressed_bytes": 1848
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.297,
+        "snr_db": 29.49,
+        "psnr_db": 39.03,
+        "encode_latency_ms": 39.32,
+        "decode_latency_ms": 142.4,
+        "original_bytes": 16484,
+        "compressed_bytes": 2259
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.914,
+        "snr_db": 33.74,
+        "psnr_db": 43.28,
+        "encode_latency_ms": 40.6,
+        "decode_latency_ms": 73.9,
+        "original_bytes": 16484,
+        "compressed_bytes": 5656
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161878.6154122,
+    "chunk_samples": 4121,
+    "total_latency_ms": 598.84,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.36,
+        "psnr_db": 34.82,
+        "encode_latency_ms": 44.52,
+        "decode_latency_ms": 77.12,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.862,
+        "snr_db": -2.57,
+        "psnr_db": 6.88,
+        "encode_latency_ms": 39.87,
+        "decode_latency_ms": 144.53,
+        "original_bytes": 16484,
+        "compressed_bytes": 1860
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.757,
+        "snr_db": 28.51,
+        "psnr_db": 37.97,
+        "encode_latency_ms": 38.41,
+        "decode_latency_ms": 140.89,
+        "original_bytes": 16484,
+        "compressed_bytes": 2125
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.91,
+        "snr_db": 33.41,
+        "psnr_db": 42.87,
+        "encode_latency_ms": 40.17,
+        "decode_latency_ms": 70.94,
+        "original_bytes": 16484,
+        "compressed_bytes": 5664
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161879.3302116,
+    "chunk_samples": 4121,
+    "total_latency_ms": 620.06,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.77,
+        "psnr_db": 34.23,
+        "encode_latency_ms": 38.61,
+        "decode_latency_ms": 87.61,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.877,
+        "snr_db": -2.5,
+        "psnr_db": 6.97,
+        "encode_latency_ms": 42.74,
+        "decode_latency_ms": 150.52,
+        "original_bytes": 16484,
+        "compressed_bytes": 1857
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.233,
+        "snr_db": 29.7,
+        "psnr_db": 39.17,
+        "encode_latency_ms": 41.99,
+        "decode_latency_ms": 142.63,
+        "original_bytes": 16484,
+        "compressed_bytes": 2279
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.904,
+        "snr_db": 34.04,
+        "psnr_db": 43.5,
+        "encode_latency_ms": 39.24,
+        "decode_latency_ms": 74.01,
+        "original_bytes": 16484,
+        "compressed_bytes": 5677
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161880.0228596,
+    "chunk_samples": 4121,
+    "total_latency_ms": 596.43,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 24.98,
+        "psnr_db": 34.46,
+        "encode_latency_ms": 40.68,
+        "decode_latency_ms": 70.31,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.483,
+        "snr_db": -2.45,
+        "psnr_db": 7.04,
+        "encode_latency_ms": 41.28,
+        "decode_latency_ms": 140.92,
+        "original_bytes": 16484,
+        "compressed_bytes": 2203
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 7.671,
+        "snr_db": 28.76,
+        "psnr_db": 38.24,
+        "encode_latency_ms": 40.23,
+        "decode_latency_ms": 138.59,
+        "original_bytes": 16484,
+        "compressed_bytes": 2149
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.895,
+        "snr_db": 33.57,
+        "psnr_db": 43.05,
+        "encode_latency_ms": 46.76,
+        "decode_latency_ms": 75.22,
+        "original_bytes": 16484,
+        "compressed_bytes": 5693
+      }
+    }
+  },
+  {
+    "type": "metrics",
+    "timestamp": 1776161880.7002096,
+    "chunk_samples": 4121,
+    "total_latency_ms": 582.16,
+    "codecs": {
+      "mp3": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.462,
+        "snr_db": 25.13,
+        "psnr_db": 36.63,
+        "encode_latency_ms": 39.14,
+        "decode_latency_ms": 72.09,
+        "original_bytes": 16484,
+        "compressed_bytes": 2551
+      },
+      "aac": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 8.708,
+        "snr_db": -2.89,
+        "psnr_db": 8.61,
+        "encode_latency_ms": 37.9,
+        "decode_latency_ms": 137.86,
+        "original_bytes": 16484,
+        "compressed_bytes": 1893
+      },
+      "opus": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 6.58,
+        "snr_db": 29.95,
+        "psnr_db": 41.45,
+        "encode_latency_ms": 38.95,
+        "decode_latency_ms": 144.08,
+        "original_bytes": 16484,
+        "compressed_bytes": 2505
+      },
+      "ogg": {
+        "bitrate_kbps": 128,
+        "compression_ratio": 2.941,
+        "snr_db": 33.15,
+        "psnr_db": 44.51,
+        "encode_latency_ms": 39.76,
+        "decode_latency_ms": 70.15,
+        "original_bytes": 16484,
+        "compressed_bytes": 5605
+      }
+    }
+  }
+]
