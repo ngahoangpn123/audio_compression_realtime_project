@@ -33,7 +33,7 @@ def main():
 
     print("Đang khởi tạo Dataset... Vui lòng chờ.\n")
 
-    # 1. Speech (Dùng đúng 'libri1' có sẵn trên máy bạn)
+    # 1. Speech (
     print("1/4 Loading Speech ('libri1')...")
     y, sr = librosa.load(librosa.ex('libri1'), sr=None)
     prepare_and_save(y, sr, "speech_test")

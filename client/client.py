@@ -60,7 +60,6 @@ def generate_sine_chunks(
 ):
     """
     Tạo tín hiệu sine tổng hợp và yield từng chunk.
-    Dùng numpy vectorized — không vòng lặp sample-by-sample.
     """
     total_samples = int(SAMPLE_RATE * duration_s)
     t = np.linspace(0, duration_s, total_samples, endpoint=False, dtype=np.float32)
@@ -115,7 +114,7 @@ def print_metrics(payload: dict, chunk_idx: int):
 
 
 def print_summary(history: list):
-    """Thống kê tổng hợp — dùng np.mean thay tự tính sum/len."""
+    """Thống kê tổng hợp"""
     if not history:
         return
 
@@ -136,7 +135,6 @@ def print_summary(history: list):
             d["dec_lat"].append(m.get("decode_latency_ms", 0))
 
     for codec, d in codec_data.items():
-        # np.mean — thay tự viết sum(lst)/len(lst)
         print(
             f"  {BOLD}{codec.upper():6s}{RESET} "
             f"avgSNR={np.mean(d['snr']):>7.2f}dB  "
@@ -189,8 +187,7 @@ async def stream_audio(uri: str, chunks, chunk_delay_s: float = 0.09,
         sys.exit(1)
 
     print_summary(history)
-    
-    # Đã ghi file bên trong vòng lặp nên có thể bỏ hoặc giữ dòng in thông báo này
+
     if save_results and history:
         print(f"{GREEN}Results saved -> {save_results}{RESET}")
 
