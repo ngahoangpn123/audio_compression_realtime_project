@@ -1,8 +1,47 @@
-# 🎙 Monitoring Audio Compression in Real Time with Interactive Dashboards
+# 🎙 Real-Time Audio Compression Monitoring System
 
-> **Học phần:** Nén và Mã hóa Dữ liệu Đa phương tiện  
-> **Mã project:** 25219  
-> **Mô tả:** Hệ thống giám sát nén âm thanh theo thời gian thực với dashboard tương tác, hỗ trợ so sánh các codec (MP3, AAC, Opus, OGG) theo bitrate với các chỉ số SNR, PSNR, tỉ lệ nén, và latency.
+### 📚 Course: Multimedia Data Compression & Coding
+
+**Project ID:** 25219 | **Class:** 168224
+**Team Members:** Bui Quynh Hoa - 202414627 | Hoang Thi Phuong Nga - 202414648
+**Instructor:** Dr. rer. nat. Pham Van Tien
+
+---
+
+> 📡 A real-time system for monitoring audio compression performance with an interactive dashboard.
+> Supports comparison of multiple codecs (**MP3, AAC, Opus, OGG**) across **bitrate, SNR, PSNR, compression ratio, and latency**.
+
+---
+
+## 🚀 Overview
+
+In modern multimedia systems, audio compression plays a critical role in reducing bandwidth while preserving perceptual quality. However, different codecs exhibit distinct trade-offs between **compression efficiency, signal fidelity, and latency**.
+
+This project implements a **real-time audio compression monitoring system** that:
+
+* Streams audio using WebSocket
+* Applies multiple codecs via **FFmpeg (real implementations)**
+* Computes metrics per chunk
+* Visualizes results in an interactive dashboard
+
+> ⚠️ This system uses **true codec execution (FFmpeg)** instead of simulated compression, ensuring realistic evaluation.
+
+---
+
+## ✨ Key Features
+
+* 🎧 Real-time PCM audio streaming
+* ⚙️ True codec processing (MP3, AAC, Opus, OGG)
+* 📊 Live metrics:
+
+  * SNR, PSNR
+  * Compression Ratio
+  * Latency
+  * Bitrate
+* 📈 Interactive dashboard (Plotly Dash)
+* 🎼 Spectrogram & waveform visualization
+* 🔊 Audio playback comparison
+* 💾 JSON export for reproducibility
 
 ---
 
@@ -22,18 +61,62 @@
                                └──────────────────┘
 ```
 
-**Pipeline:**
-1. Audio input → chunked PCM float32
-2. Each chunk → encode with codec (MP3/AAC/Opus/OGG) → decode → reconstruct
-3. Compute SNR, PSNR, compression ratio, latency per chunk
-4. Metrics streamed to dashboard & terminal in real time
-5. Dashboard plots bitrate sweeps, spectrograms, waveform comparison, playback
+### 🔹 Components
+
+* **Client:** Streams PCM float32 audio chunks
+* **WebSocket Server:** Handles real-time communication
+* **Codec Module (`audio_codec.py`):** FFmpeg-based encoding/decoding
+* **Metrics Module (`metrics.py`):** Computes SNR, PSNR, LSD, compression ratio, latency
+* **Dashboard:** Interactive visualization
+* **Terminal:** JSON metric logs
+
+---
+
+## 🔄 Processing Pipeline
+
+1. Audio input is loaded using `librosa` and converted to mono (44.1 kHz)
+2. Signal is split into PCM float32 chunks (default: 4096 samples)
+3. Each chunk is:
+
+   * Encoded using selected codec
+   * Decoded back into reconstructed audio
+4. Original vs reconstructed → metric computation
+5. Results streamed to dashboard and terminal in real time
+
+---
+
+## 🧠 Methodology
+
+### Algorithmic Processing Pipeline
+
+To ensure realistic evaluation, the system avoids naive array manipulation and leverages **FFmpeg via `pydub`**.
+
+Each audio chunk undergoes:
+
+1. **Normalization**
+   Clip values to `[-1.0, 1.0]` to avoid distortion
+
+2. **Encoding**
+   Convert to compressed format using in-memory buffers (`io.BytesIO`)
+
+3. **Decoding**
+   Decode compressed bitstream back to PCM
+
+4. **Metric Computation**
+
+   * SNR (Signal-to-Noise Ratio)
+   * PSNR (Peak SNR)
+   * LSD (Log-Spectral Distortion)
+   * Compression Ratio
+   * Latency
+
+> ✅ Ensures accurate evaluation of real codec behavior.
 
 ---
 
 ## ⚙️ Setup
 
-### 1. System dependency — ffmpeg
+### 1. Install FFmpeg
 
 ```bash
 # Ubuntu/Debian
@@ -46,98 +129,112 @@ brew install ffmpeg
 # Download from https://ffmpeg.org/download.html and add to PATH
 ```
 
-### 2. Python environment
+---
+
+### 2. Python Environment
 
 ```bash
-# Create virtual environment (recommended)
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 
-# Install dependencies
 pip install -r requirements.txt
 ```
 
-### 3. Generate sample audio (optional)
+---
+
+### 3. Generate Sample Audio (Optional)
 
 ```bash
 python data/generate_sample.py
-# Creates data/sample.wav  (10s synthetic speech-like signal)
+python data/download_dataset.py
 ```
 
 ---
 
 ## 🚀 Running the System
 
-### Option A — Full Real-Time System (recommended)
+### 🔥 Option A — Full Real-Time System (Recommended)
 
-**Terminal 1: Start the WebSocket server**
+**Terminal 1 — Start Server**
+
 ```bash
 python -m backend.server
-# Server listens on ws://0.0.0.0:8765
 ```
 
-**Terminal 2: Start the dashboard**
+**Terminal 2 — Start Dashboard**
+
 ```bash
 python frontend/app.py
-# Dashboard at http://localhost:8050
 ```
 
-**Terminal 3: Stream audio from client**
+**Terminal 3 — Run Client**
+
 ```bash
-# Stream a WAV file
 python client/client.py --file data/sample.wav
-
-# Or use synthetic audio (no WAV file needed)
-python client/client.py --generate --duration 15
+python client/client.py --file data/speech_test.wav
+python client/client.py --file data/music_test.wav
+python client/client.py --file data/percussion_test.wav
+python client/client.py --file data/noise_test.wav
 ```
 
-### Option B — Dashboard only (offline analysis)
+---
+
+### 📊 Option B — Dashboard Only (Offline Analysis)
 
 ```bash
 python frontend/app.py
-# Open http://localhost:8050
-# Upload a WAV file and click "▶ Analyze"
 ```
 
 ---
 
 ## 🎛 Client Options
 
-```
+```bash
 python client/client.py [OPTIONS]
 
-  --file FILE        Path to WAV audio file (default: data/sample.wav)
-  --generate         Use synthetic sine-wave audio (no file needed)
-  --freq FLOAT       Sine frequency in Hz (default: 440)
-  --duration FLOAT   Duration in seconds for synthetic audio (default: 10)
-  --server URI       WebSocket server address (default: ws://localhost:8765)
-  --save PATH        Save metrics JSON to path (default: results/client_metrics.json)
-  --chunk-size INT   PCM samples per chunk (default: 4096 ≈ 93ms at 44100 Hz)
+--file FILE         Path to WAV audio file
+--generate          Use synthetic audio
+--freq FLOAT        Frequency (default: 440 Hz)
+--duration FLOAT    Duration in seconds
+--server URI        WebSocket server address
+--save PATH         Save JSON results
+--chunk-size INT    Samples per chunk (default: 4096)
 ```
 
 ---
 
 ## 📊 Metrics
 
-| Metric | Description |
-|--------|-------------|
-| **SNR (dB)** | Signal-to-Noise Ratio — higher is better |
-| **PSNR (dB)** | Peak SNR — measures max distortion |
-| **Compression Ratio** | Original size / Compressed size |
-| **Space Saving (%)** | `(1 - comp/orig) × 100` |
-| **Encode Latency (ms)** | Time to compress one chunk |
-| **Decode Latency (ms)** | Time to decompress one chunk |
-| **Effective Bitrate (kbps)** | Actual bits per second achieved |
+| Metric            | Description                 |
+| ----------------- | --------------------------- |
+| SNR (dB)          | Signal quality vs noise     |
+| PSNR (dB)         | Peak distortion             |
+| LSD (dB)          | Frequency-domain distortion |
+| Compression Ratio | Size reduction              |
+| Space Saving (%)  | Storage efficiency          |
+| Latency (ms)      | Encode + decode time        |
+
+---
+
+## 📈 Expected Results
+
+| Codec | SNR (dB) | Compression Ratio | Latency  |
+| ----- | -------- | ----------------- | -------- |
+| MP3   | ~33.26   | ~11.0×            | ~5.2 ms  |
+| AAC   | ~-3.2*   | ~11.8×            | ~12.1 ms |
+| Opus  | ~34.81   | ~11.5×            | ~10.5 ms |
+| OGG   | ~34.12   | ~11.2×            | ~6.8 ms  |
+
+> *AAC may show negative SNR due to phase shift effects, but perceptual quality remains high.*
 
 ---
 
 ## 🗂 Project Structure
 
 ```
-audio-compression-realtime/
+audio_compression_realtime_project/
 │
 ├── backend/
-│   ├── __init__.py         # Package init
 │   ├── server.py           # Async WebSocket server (asyncio + websockets)
 │   ├── audio_codec.py      # MP3/AAC/Opus/OGG encode-decode wrappers (pydub/ffmpeg)
 │   └── metrics.py          # SNR, PSNR, spectrogram, compression metrics
@@ -155,7 +252,7 @@ audio-compression-realtime/
 ├── results/                # Auto-created; stores metric JSONs from client runs
 │
 ├── docs/
-│   ├── report.pdf          # Technical report
+│   ├── report.pdf          # Technical report 
 │   └── slides.pdf          # Presentation slides
 │
 ├── .gitignore
@@ -165,86 +262,50 @@ audio-compression-realtime/
 
 ---
 
-## 🔬 Reproducing Results
+## 🔬 Reproducibility
 
+### Environment Setup
 ```bash
-# 1. Generate test audio
-python data/generate_sample.py
-
-# 2. Start server
-python -m backend.server &
-
-# 3. Run client — saves metrics to results/
-python client/client.py --file data/sample.wav --save results/run1.json
-
-# 4. Inspect results
-python -c "
-import json
-data = json.load(open('results/run1.json'))
-print(f'{len(data)} chunks processed')
-for codec, m in data[0]['codecs'].items():
-    print(f'{codec}: SNR={m[\"snr_db\"]}dB, ratio={m[\"compression_ratio\"]}x')
-"
+sudo apt install ffmpeg -y
+python -m venv .venv && source .venv/bin/activate pip install -r requirements.txt
 ```
 
 ---
-
-## 📈 Expected Results
-
-| Codec | SNR @ 128 kbps | Compression Ratio | Encode Latency |
-|-------|---------------|-------------------|----------------|
-| MP3   | ~28–35 dB     | 8–12×             | 5–15 ms        |
-| AAC   | ~30–38 dB     | 9–14×             | 8–20 ms        |
-| Opus  | ~32–40 dB     | 10–16×            | 3–10 ms        |
-| OGG   | ~28–36 dB     | 8–12×             | 6–18 ms        |
-
-*Values vary with input audio type (speech vs music) and hardware.*
+### Dataset preparation
+```bash
+python data/generate_sample.py
+python data/download_dataset.py
+``` 
 
 ---
+### Real-time mode (three separate terminals)
+```bash
+python -m backend.server # Terminal 1: WebSocket server
+python frontend/app.py # Terminal 2: Dashboard → http://localhost:8050 python
+client/client.py --generate # Terminal 3: Stream synthetic audio
+```
 
-## 🧩 Key Implementation Details
-
-### Codec Pipeline (`backend/audio_codec.py`)
-- **Input:** `float32` numpy array, values in `[-1, 1]`
-- **Encode:** `pydub.AudioSegment.export()` → ffmpeg subprocess → compressed bytes
-- **Decode:** `pydub.AudioSegment.from_file()` → ffmpeg → `int16` → `float32`
-- **Fallback:** If pydub/ffmpeg unavailable, returns lossless WAV (for metric testing)
-
-### WebSocket Protocol (`backend/server.py`)
-- **Binary frame** → PCM float32 bytes → triggers compression + metric response
-- **Text frame (JSON)** → control command (`ping`, `get_codecs`, `compress_file`)
-- **Response JSON:**
-  ```json
-  {
-    "type": "metrics",
-    "timestamp": 1700000000.0,
-    "chunk_samples": 4096,
-    "total_latency_ms": 45.2,
-    "codecs": {
-      "mp3": { "snr_db": 32.1, "compression_ratio": 10.2, ... }
-    }
-  }
-  ```
-
-### Dashboard (`frontend/app.py`)
-- **Upload** → decoded to float32 → stored in `dcc.Store`
-- **Analyze** → bitrate sweep (32–320 kbps) × all selected codecs
-- **Charts:** SNR vs bitrate (line), compression ratio (bar), latency (bar), waveform, spectrograms
-- **Playback:** `html.Audio` with `data:audio/wav;base64,...` src
+---
+### Batch evaluation
+```bash
+python evaluate.py --file data/sample.wav
+python evaluate.py --file data/speech_test.wav
+python evaluate.py --file data/music_test.wav
+python evaluate.py --file data/percussion_test.wav
+python evaluate.py --file data/noise_test.wav
+# Outputs: results/evaluation_results.json, results/*.png
+```
 
 ---
 
 ## 👥 Team Contribution
 
-| Thành viên | Đóng góp |
-|------------|----------|
-| *(điền tên)* | Backend server, codec module |
-| *(điền tên)* | Frontend dashboard, visualization |
-| *(điền tên)* | Client, metrics, evaluation |
-| *(điền tên)* | Report, slides, testing |
+| Member | Contribution |
+|--------|-------------|
+| **Bui Quynh Hoa** | • Designed and implemented core backend system (`server.py`, `audio_codec.py`) <br> • Developed data generation & dataset scripts (`generate_sample.py`, `download_dataset.py`) <br> • Led quantitative evaluation (Latency, SNR, Compression Ratio) via automated testing <br> • Authored technical documentation and `README.md` |
+| **Hoang Thi Phuong Nga** | • Developed interactive dashboard (`app.py`) with real-time spectrogram & waveform visualization <br> • Implemented metrics module (`metrics.py`) and evaluation pipeline (`evaluate.py`) <br> • Led visual & comparative analysis across codecs <br> • Developed client streaming logic (`client.py`) and managed dependencies (`requirements.txt`) |
+| **Both Authors** | • Co-designed system architecture and processing pipeline <br> • Integrated all modules into a full end-to-end system <br> • Designed experimental framework (bitrate sweep, codec comparison) <br> • Performed testing, debugging, and optimization <br> • Jointly analyzed results and finalized report |
 
 ---
 
-## 📄 License
 
-MIT License — for educational use.
