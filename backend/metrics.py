@@ -153,7 +153,7 @@ class MetricsCalculator:
         return output
 
     # ------------------------------------------------------------------
-    # Spectrogram  — dùng librosa + scipy thay vì tự viết STFT
+    # Spectrogram  
     # ------------------------------------------------------------------
 
     def compute_spectrogram(
@@ -216,13 +216,13 @@ class MetricsCalculator:
         """
         samples = np.asarray(samples, dtype=np.float32)
 
-        # librosa.feature.melspectrogram — xây mel filterbank + STFT sẵn
+        # librosa.feature.melspectrogram 
         mel_power = librosa.feature.melspectrogram(
             y=samples, sr=self.sample_rate,
             n_fft=n_fft, hop_length=hop_length, n_mels=n_mels,
         )
 
-        # librosa.power_to_db — chuyển power spectrum → dB scale
+        # librosa.power_to_db 
         mel_db = librosa.power_to_db(mel_power, ref=np.max)
 
         num_frames = mel_db.shape[1]
@@ -244,6 +244,6 @@ class MetricsCalculator:
 
     @staticmethod
     def _align(a: np.ndarray, b: np.ndarray):
-        """Cắt hai mảng về cùng độ dài (lấy cái ngắn hơn)."""
+        """Cut 2 array into same length."""
         n = min(len(a), len(b))
         return a[:n], b[:n]

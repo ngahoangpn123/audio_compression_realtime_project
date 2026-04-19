@@ -385,7 +385,7 @@ def run_analysis(n_clicks, contents, selected_codecs, bitrate):
     try:
         samples, wav_bytes = decode_upload(contents)
     except Exception as e:
-        return no_update, no_update, f"❌ Error reading file: {e}"
+        return no_update, no_update, f"Error reading file: {e}"
 
     max_samples = SAMPLE_RATE * 30
     if len(samples) > max_samples:
@@ -394,7 +394,7 @@ def run_analysis(n_clicks, contents, selected_codecs, bitrate):
     try:
         analysis = run_full_analysis(samples, selected_codecs, bitrate)
     except Exception as e:
-        return no_update, no_update, f"❌ Analysis error: {e}"
+        return no_update, no_update, f"Analysis error: {e}"
 
     spec = metrics_calc.compute_spectrogram(samples)
     analysis["spectrogram_orig"] = spec
@@ -410,7 +410,7 @@ def run_analysis(n_clicks, contents, selected_codecs, bitrate):
     analysis["original_b64"] = samples_to_b64_wav(samples)
 
     duration_s = len(samples) / SAMPLE_RATE
-    status = (f"✅ Analysis complete — {duration_s:.1f}s audio, "
+    status = (f"Analysis complete — {duration_s:.1f}s audio, "
               f"{len(selected_codecs)} codec(s), bitrate sweep 32–320 kbps")
     return analysis, base64.b64encode(wav_bytes).decode(), status
 
